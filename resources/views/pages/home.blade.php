@@ -1,5 +1,22 @@
-@extends('layout.frontend.master')
+@extends('layouts.master')
+
 @section('content')
+
+	<!-- Slider -->
+
+	<div class="main_slider" style="background-image:url(images/slider1.png)">
+		<div class="container fill_height">
+			<div class="row align-items-center fill_height">
+				<div class="col">
+					<div class="main_slider_content">
+						<h4>We Are Serving Telecommunication Device Testing With Internatonal Quality Standard</h4>
+			<!-- 			<div class="red_button shop_now_button"><a href="#">About Us</a></div>
+						<div class="red_button shop_now_button"><a href="#">Our Services</a></div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Article -->
 
