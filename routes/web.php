@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
-Route::get('/certified', function () {
-    return view('pages.certified');
+Route::get('/tarif', function () {
+    return view('pages.tarif');
 });
