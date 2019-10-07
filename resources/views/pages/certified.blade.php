@@ -9,7 +9,7 @@
 				<div class="col-md">
 					<h4>CERTIFIED DEVICE</h4>
 					<hr/>
-					<form class="active-pink">
+					<form class="active-pink align-right">
 						<input class="form-control w-50" type="text" placeholder="Search by Company Name, Device Name, or Brand">
 					</form>
 					<br>
