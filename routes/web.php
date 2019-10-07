@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/certified', function () {
     return view('pages.certified');
 });
+
+Route::get('/procedure', function () {
+    return view('pages.procedure');
+});
