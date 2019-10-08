@@ -30,3 +30,7 @@ Route::get('/procedure', function () {
 Route::get('/tarif', function () {
     return view('pages.tarif');
 });
+
+Route::get('/purchase', function () {
+    return view('pages.purchase_history');
+});
