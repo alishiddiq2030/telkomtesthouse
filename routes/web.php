@@ -38,3 +38,7 @@ Route::get('/purchase', function () {
 Route::get('/progress', function () {
     return view('pages.progress');
 });
+
+Route::get('/buy_stel', function () {
+    return view('pages.buy_stel');
+});
