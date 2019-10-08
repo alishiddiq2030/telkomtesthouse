@@ -19,7 +19,7 @@ Route::get('/certified', function () {
     return view('pages.certified');
 });
 
-Route::get('/authentication', function () {
+Route::get('/login', function () {
     return view('pages.authentication');
 });
 
