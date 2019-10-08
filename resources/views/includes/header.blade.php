@@ -48,7 +48,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-right">
-                <div class="logo_container">
+                <div class="logo_container mt-1">
                     <a href="index.html"><img src="images/logo.png" alt="" /></a>
                 </div>
                 <nav class="navbar">
@@ -59,9 +59,10 @@
                                 Profile
                                 <i class="fa fa-angle-down"></i>
                             </a>
-                            <ul class="profile_selection">
-                                <li><a href="#"><i aria-hidden="true"></i>1</a></li>
-                                <li><a href="#"><i aria-hidden="true"></i>2</a></li>
+                            <ul class="profile_selection" style="text-align:left;">
+                                <li><a href="#"><i aria-hidden="true"></i>ABOUT US</a></li>
+                                <li><a href="#"><i aria-hidden="true"></i>CERTIFICATION</a></li>
+                                <li><a href="#"><i aria-hidden="true"></i>CONTACT</a></li>
                             </ul>
                         </li>
                         <li class="profile">
@@ -69,9 +70,9 @@
                                 Service
                                 <i class="fa fa-angle-down"></i>
                             </a>
-                            <ul class="profile_selection">
-                                <li><a href="#"><i aria-hidden="true"></i>1</a></li>
-                                <li><a href="#"><i aria-hidden="true"></i>2</a></li>
+                            <ul class="profile_selection" style="text-align:left;">
+                                <li><a href="#"><i aria-hidden="true"></i>PROCEDURE</a></li>
+                                <li><a href="#"><i aria-hidden="true"></i>TARIF</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Certified Device</a></li>
@@ -80,12 +81,24 @@
                                 References
                                 <i class="fa fa-angle-down"></i>
                             </a>
-                            <ul class="profile_selection">
-                                <li><a href="#"><i aria-hidden="true"></i>1</a></li>
-                                <li><a href="#"><i aria-hidden="true"></i>2</a></li>
+                            <ul class="profile_selection" style="text-align:left;">
+                                <li><a href="#"><i aria-hidden="true"></i>STEL</a></li>
+                                <br>
+                                <li><a href="#"><i aria-hidden="true"></i>S-STEL</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.html">contact</a></li>
+                        <li class="profile">
+                            <a href="#">
+                                Testing
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="profile_selection" style="text-align:left;">
+                                <li><a href="#"><i aria-hidden="true"></i>PROGRESS</a></li>
+                                <li><a href="#"><i aria-hidden="true"></i>PROCESS</a></li>
+                                <li><a href="#"><i aria-hidden="true"></i>PURCHASE HISTORY</a></li>
+                                <li><a href="#"><i aria-hidden="true"></i>BUY STEL</a></li>
+                            </ul>
+                        </li>
                     </ul>
                     <ul class="navbar_user">
                         <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
