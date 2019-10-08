@@ -42,3 +42,7 @@ Route::get('/progress', function () {
 Route::get('/buy_stel', function () {
     return view('pages.buy_stel');
 });
+
+Route::get('/process', function () {
+    return view('pages.process');
+});
