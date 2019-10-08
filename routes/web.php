@@ -12,9 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.home');
 });
 
 Route::get('/login', function () {
     return view('authentication');
+});
+
+Route::get('/tarif', function () {
+    return view('pages.tarif');
 });

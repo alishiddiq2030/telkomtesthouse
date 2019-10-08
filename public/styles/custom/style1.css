@@ -1,0 +1,60 @@
+.padding-top-180 {
+    margin-top: 180px;
+}
+
+.padding-top-180 {
+    margin-top: 180px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.active-pink input[type=text]:focus:not([readonly]) {
+    border: 1px solid #FFA28F;
+    box-shadow: 0 0 0 1px #FFA28F;
+}   
+
+/* Pagination Color */
+
+.pagination > li > a
+{
+    background-color: white;
+    color: red;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: red;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: red !Important;
+    border: solid 1px red !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: red;
+    border: solid 1px red;
+}
+
+/* .pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    z-index: 3;
+    color: white;
+    background-color: red;
+    border-color: #ddd;
+} */
