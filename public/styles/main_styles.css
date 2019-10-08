@@ -1868,3 +1868,22 @@ section
 {
 	color: #fe4c50;
 }
+
+.about{
+	width: 500px;
+	height: 600px;
+    margin: 110px auto;
+}
+
+.about h2{
+    font-size: 40px;
+	color: #51545f;
+}
+
+.about p{
+    font-size: 14px;
+	color: #51545f;
+	width: 500px;
+	height: 100px;
+    margin: 0px auto;
+}
