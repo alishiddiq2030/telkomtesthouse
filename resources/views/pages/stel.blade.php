@@ -1,4 +1,4 @@
-@extends('layout.frontend.master')
+@extends('layouts.master')
 @section('content')
 
 	<!-- Content -->
@@ -103,7 +103,7 @@
 							<td>CISPR 32</td>
 							<td>0</td>
 							<td>1.0</td>
-							<td>Lab. Transmisi</td>>
+							<td>Lab. Transmisi</td>
 						</tr>
 						</tbody>
 					</table>

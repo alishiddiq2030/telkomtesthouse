@@ -60,9 +60,9 @@
                                 <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="profile_selection" style="text-align:left;">
-                                <li><a href="#"><i aria-hidden="true"></i>ABOUT US</a></li>
-                                <li><a href="#"><i aria-hidden="true"></i>CERTIFICATION</a></li>
-                                <li><a href="#"><i aria-hidden="true"></i>CONTACT</a></li>
+                                <li><a href="about"><i aria-hidden="true"></i>ABOUT US</a></li>
+                                <li><a href="certification"><i aria-hidden="true"></i>CERTIFICATION</a></li>
+                                <li><a href="contact"><i aria-hidden="true"></i>CONTACT</a></li>
                             </ul>
                         </li>
                         <li class="profile">
@@ -82,9 +82,9 @@
                                 <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="profile_selection" style="text-align:left;">
-                                <li><a href="#"><i aria-hidden="true"></i>STEL</a></li>
+                                <li><a href="stel"><i aria-hidden="true"></i>STEL</a></li>
                                 <br>
-                                <li><a href="#"><i aria-hidden="true"></i>S-STEL</a></li>
+                                <li><a href="sstel"><i aria-hidden="true"></i>S-STEL</a></li>
                             </ul>
                         </li>
                         <li class="profile">

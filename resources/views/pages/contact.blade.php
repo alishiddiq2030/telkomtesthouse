@@ -1,4 +1,4 @@
-@extends('layout.frontend.master')
+@extends('layouts.master')
 @section('content')
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>

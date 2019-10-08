@@ -15,13 +15,21 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
-Route::get('/certified', function () {
-    return view('pages.certified');
+// PROFILE
+
+Route::get('/about', function () {
+    return view('pages.about');
 });
 
-Route::get('/login', function () {
-    return view('pages.authentication');
+Route::get('/certification', function () {
+    return view('pages.certification');
 });
+
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+
+// SERVICE
 
 Route::get('/procedure', function () {
     return view('pages.procedure');
@@ -31,18 +39,46 @@ Route::get('/tarif', function () {
     return view('pages.tarif');
 });
 
-Route::get('/purchase', function () {
-    return view('pages.purchase_history');
+// CERTIFIED
+
+Route::get('/certified', function () {
+    return view('pages.certified');
 });
+
+// REFERENCES
+
+Route::get('/stel', function () {
+    return view('pages.stel');
+});
+
+Route::get('/sstel', function () {
+    return view('pages.sstel');
+});
+
+// TESTING
 
 Route::get('/progress', function () {
     return view('pages.progress');
+});
+
+Route::get('/process', function () {
+    return view('pages.process');
+});
+
+Route::get('/purchase', function () {
+    return view('pages.purchase_history');
 });
 
 Route::get('/buy_stel', function () {
     return view('pages.buy_stel');
 });
 
-Route::get('/process', function () {
-    return view('pages.process');
+// AUTH
+
+Route::get('/login', function () {
+    return view('pages.authentication');
+});
+
+Route::get('/register', function () {
+    return view('pages.registration');
 });
