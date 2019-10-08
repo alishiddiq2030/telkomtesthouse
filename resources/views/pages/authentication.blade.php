@@ -1,4 +1,4 @@
-@extends('layout.frontend.master')
+<!-- @extends('layouts.master') -->
 @section('content')
 
 <!DOCTYPE html>
