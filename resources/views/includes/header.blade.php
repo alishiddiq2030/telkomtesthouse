@@ -49,11 +49,11 @@
         <div class="row">
             <div class="col-lg-12 text-right">
                 <div class="logo_container mt-1">
-                    <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                    <a href="/"><img src="images/logo.png" alt="" /></a>
                 </div>
                 <nav class="navbar">
                     <ul class="navbar_menu">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="/" class="text-danger">Home</a></li>
                         <li class="profile">
                             <a href="#">
                                 Profile
