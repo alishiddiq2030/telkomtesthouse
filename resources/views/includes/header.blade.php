@@ -53,7 +53,7 @@
                 </div>
                 <nav class="navbar">
                     <ul class="navbar_menu">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li class="profile">
                             <a href="#">
                                 Profile
@@ -71,11 +71,11 @@
                                 <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="profile_selection" style="text-align:left;">
-                                <li><a href="#"><i aria-hidden="true"></i>PROCEDURE</a></li>
-                                <li><a href="#"><i aria-hidden="true"></i>TARIF</a></li>
+                                <li><a href="procedure"><i aria-hidden="true"></i>PROCEDURE</a></li>
+                                <li><a href="tarif"><i aria-hidden="true"></i>TARIF</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Certified Device</a></li>
+                        <li><a href="certified">Certified Device</a></li>
                         <li class="profile">
                             <a href="#">
                                 References
@@ -93,10 +93,10 @@
                                 <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="profile_selection" style="text-align:left;">
-                                <li><a href="#"><i aria-hidden="true"></i>PROGRESS</a></li>
-                                <li><a href="#"><i aria-hidden="true"></i>PROCESS</a></li>
-                                <li><a href="#"><i aria-hidden="true"></i>PURCHASE HISTORY</a></li>
-                                <li><a href="#"><i aria-hidden="true"></i>BUY STEL</a></li>
+                                <li><a href="progress"><i aria-hidden="true"></i>PROGRESS</a></li>
+                                <li><a href="process"><i aria-hidden="true"></i>PROCESS</a></li>
+                                <li><a href="purchase"><i aria-hidden="true"></i>PURCHASE HISTORY</a></li>
+                                <li><a href="buy_stel"><i aria-hidden="true"></i>BUY STEL</a></li>
                             </ul>
                         </li>
                     </ul>
