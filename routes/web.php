@@ -34,3 +34,7 @@ Route::get('/tarif', function () {
 Route::get('/purchase', function () {
     return view('pages.purchase_history');
 });
+
+Route::get('/progress', function () {
+    return view('pages.progress');
+});
