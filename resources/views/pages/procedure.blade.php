@@ -3,7 +3,7 @@
 
 	<!-- Content -->
 
-    <div class="padding-top-180">
+    <div class="padding-top-180 mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md mb-4">

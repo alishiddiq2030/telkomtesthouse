@@ -2,7 +2,7 @@
 @section('content')
 
 <!-- Page Content -->
-<div class="padding-top-180">
+<div class="padding-top-180 mb-5">
   <div class="container">
 
     <h4 class="font-weight-light text-center text-lg-left mt-4 mb-0">CERTIFICATION</h4>

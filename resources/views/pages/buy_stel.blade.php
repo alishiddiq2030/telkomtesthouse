@@ -3,7 +3,7 @@
 
 	<!-- Content -->
 
-	<div class="padding-top-180">
+	<div class="padding-top-180 mb-5">
 		<div class="container">
             <div class="row mb-4">
                 <div class="col-md-3"><h2 style="text-align:center; color:red;">STEL SHOP</font></h2></div>

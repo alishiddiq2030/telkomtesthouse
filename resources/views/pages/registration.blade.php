@@ -103,7 +103,7 @@
                             </div>
                       </div>
 
-              <div class="tab-content mt-5">
+              <div class="tab-content mt-5 mb-5">
                <h3 class="col-sm">Company</h3>
                
                <hr>
