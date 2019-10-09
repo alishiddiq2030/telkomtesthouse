@@ -1,30 +1,62 @@
-<div class="container">
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
-                <ul class="footer_nav">
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="contact.html">Contact us</a></li>
-                </ul>
+
+
+<div style="background-color: #EEEEEE; height: 200px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <img src="images/logo_dds.png" class="mt-3">
             </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                </ul>
+            <div class="col-lg-3 mt-3">
+                <b style="color:#676765">KONTAK</b><br>
+                <div class="mt-2">
+                    <a class="mr-3" style="color:#707070;" href="#"><i class="fa fa-phone"></i></a>
+                    (022) 4571145
+                </div>
+                <div class="mt-2">
+                    <a class="mr-3" style="color:#707070;" href="#"><i class="fa fa-envelope"></i></a>
+                    urelddstelkom@gmail.com
+                </div>
+                <div class="mt-2">
+                    <a class="mr-3" style="color:#707070;" href="#"><i class="fa fa-map"></i></a>
+                    Jl. Gegerkalong Hilir, Sukarasa, Sukasari
+                    Kota Bandung, Jawa Barat 40152
+                </div>
+            </div>
+            <div class="col-lg-3 mt-3">
+                <b style="color:#676765">BANK ACCOUNT</b>
+                <div class="mt-2">
+                    BANK MANDIRI <br>
+                    KCP KAMPUS TELKOM BANDUNG <br>
+                    131-0096022712 <br>
+                    a/n Divisi RisTI TELKOM
+                </div>
+            </div>
+            <div class="col-lg-3 mt-3">
+                <b style="color:#676765">LINK</b>
+                <div class="mt-2">
+                    <a href="#" class="fa fa-external-link mr-1"></a>
+                    <a href="#">FAQ</a><br>
+                    <a href="#" class="fa fa-external-link mr-1"></a>
+                    <a href="#">Syarat dan Ketentuan Umum</a><br>
+                    <a href="#" class="fa fa-external-link mr-1"></a>
+                    <a href="#">Lapor</a><br>
+                </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="footer_nav_container">
-                <div class="cr">Copyrights ©2019 All Rights Reserverd by Telkom Digital Service</div>
+</div>
+<div class="footer_nav_container" style="background-color: rgb(229,0,0); height: 30px;">
+    <div class="container" style="color:white;">
+        <div class="row">
+            <div class="mt-1">
+                Copyrights ©2019 All Rights Reserverd by Telkom Digital Service
+            </div>
+            <div class="col-lg-7 mt-1 pull-right" style="text-align: right">
+                <a class="mr-4" style="color:white;" href="#"><i class="fa fa-facebook"></i></a>
+                <a class="mr-4" style="color:white;" href="#"><i class="fa fa-twitter"></i></a>
+                <a class="mr-4" style="color:white;" href="#"><i class="fa fa-instagram"></i></a>
+                <a class="mr-4" style="color:white;" href="#"><i class="fa fa-skype"></i></a>
+                <a class="mr-4" style="color:white;" href="#"><i class="fa fa-pinterest"></i></a>
             </div>
         </div>
     </div>
