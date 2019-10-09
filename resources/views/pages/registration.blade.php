@@ -1,12 +1,14 @@
 @extends('layouts.master')
 @section('content')
 
+<div class="padding-top-180">
 <div class="register">
-<hr>
   <div class="container">
     <div class="row">
       <div class="col-sm-10">
-        <h3>Register</h3></div>
+        <h3>Register</h3>
+        <hr>
+      </div>
     </div>
     
 
@@ -140,5 +142,6 @@
 
         </div><!--/col-9-->
     </div><!--/row-->
+  </div>
   </div>
     @stop

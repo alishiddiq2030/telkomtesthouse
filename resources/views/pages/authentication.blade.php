@@ -1,6 +1,7 @@
-@extends('layout.frontend.master')
+@extends('layouts.master')
 @section('content')
 
+<div class="padding-top-180">
 <div class="login">
  <div class="container">
         <div class="row">
@@ -38,5 +39,6 @@
 			</div>
 		</div>
 	</div>
+</div>
 </div>
 @stop
