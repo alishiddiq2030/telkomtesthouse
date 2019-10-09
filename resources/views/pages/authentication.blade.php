@@ -32,7 +32,7 @@
                            <div class="col-md-12 ">
                            </div>
                            <div class="form-group">
-                              <p class="text-center">Don't have account? <a href="#" id="signup">Sign up here</a></p>
+                              <p class="text-center">Don't have account? <a href="register" id="signup">Sign up here</a></p>
                            </div>
                         </form>                
 				</div>

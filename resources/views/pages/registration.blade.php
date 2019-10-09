@@ -23,7 +23,7 @@
       
       <div class="col-sm-9">
           <div class="tab-content">
-              <h2 class="col-sm">Personal Information</h2>
+              <h3 class="col-sm">Personal Information</h3>
                 <hr>
                   <form class="form" action="##" method="post" id="registrationForm">
 
@@ -31,12 +31,12 @@
                       <div class="form-group">
                        <div class="row">
                           <div class="col-sm">
-                                <label for="first_name"><h4>First name</h4></label>
+                                <label for="first_name"><h5>First name</h5></label>
                                 <input type="text" class="form-control" name="first_name" id="first_name" placeholder="first name" title="enter your first name if any.">
                             </div>
                             
                             <div class="col-sm">
-                              <label for="last_name"><h4>Last name</h4></label>
+                              <label for="last_name"><h5>Last name</h5></label>
                                 <input type="text" class="form-control" name="last_name" id="last_name" placeholder="last name" title="enter your last name if any.">
                             </div>
                           </div>
@@ -45,12 +45,12 @@
                       <div class="form-group">
                        <div class="row">
                           <div class="col-sm">
-                              <label for="phone"><h4>Address</h4></label>
+                              <label for="phone"><h5>Address</h5></label>
                               <input type="text" class="form-control" name="phone" id="phone" placeholder="enter address" title="enter your address if any.">
                           </div>
                             
                             <div class="col-sm">
-                               <label for="mobile"><h4>Phone Number</h4></label>
+                               <label for="mobile"><h5>Phone Number</h5></label>
                               <input type="text" class="form-control" name="mobile" id="mobile" placeholder="enter mobile number" title="enter your mobile number if any.">
                          </div>
                           </div>
@@ -59,12 +59,12 @@
                         <div class="form-group">
                        <div class="row">
                           <div class="col-sm">
-                              <label for="email"><h4>Email</h4></label>
+                              <label for="email"><h5>Email</h5></label>
                               <input type="email" class="form-control" name="email" id="email" placeholder="you@email.com" title="enter your email.">
                           </div>
                             
                             <div class="col-sm">
-                               <label for="email"><h4>Alternate Email</h4></label>
+                               <label for="email"><h5>Alternate Email</h5></label>
                               <input type="email" class="form-control" id="location" placeholder="somewhere" title="enter a location">
                          </div>
                           </div>
@@ -73,12 +73,12 @@
                          <div class="form-group">
                        <div class="row">
                           <div class="col-sm">
-                             <label for="email"><h4>Facsimile</h4></label>
+                             <label for="email"><h5>Facsimile</h5></label>
                               <input type="email" class="form-control" id="location" placeholder="somewhere" title="enter a location">
                           </div>
                             
                             <div class="col-sm">
-                              <label for="email"><h4>Company</h4></label>
+                              <label for="email"><h5>Company</h5></label>
                               <input type="email" class="form-control" id="location" placeholder="somewhere" title="enter a location">
                          </div>
                           </div>
@@ -87,12 +87,12 @@
                         <div class="form-group">
                        <div class="row">
                           <div class="col-sm">
-                             <label for="password"><h4>Password</h4></label>
+                             <label for="password"><h5>Password</h5></label>
                               <input type="password" class="form-control" name="password" id="password" placeholder="password" title="enter your password.">
                           </div>
                             
                             <div class="col-sm">
-                             <label for="password2"><h4>Confirm Password</h4></label>
+                             <label for="password2"><h5>Confirm Password</h5></label>
                               <input type="password" class="form-control" name="password2" id="password2" placeholder="password2" title="enter your password2.">
                          </div>
                           </div>
@@ -102,15 +102,16 @@
                                 <button class="btn btn-lg" type="reset">Back</button> -->
                             </div>
                       </div>
-           
-               <h2 class="col-sm">Company</h2>
+
+              <div class="tab-content mt-5">
+               <h3 class="col-sm">Company</h3>
                
                <hr>
                   <form class="form" action="##" method="post" id="registrationForm">
                       <div class="form-group">
                           
                           <div class="col-sm">
-                              <label for="first_name"><h4>Select Company</h4></label> 
+                              <label for="first_name"><h5>Select Company</h5></label> 
                                 <select class="form-control" name="last_name" id="last_name">
                                   <option></option>
                                   <option></option>
@@ -122,18 +123,12 @@
 
                       <div class="form-group">
                            <div class="col-sm">
-                                <button class="btn btn-lg btn-danger" type="submit">New Company Form</button>
-                            </div>
-                      </div>
-                      <div class="form-group">
-                           <div class="col-sm">
-                                <br>
-                                <button class="btn btn-lg btn-danger" type="submit"></i> Register</button>
-                                <button class="btn btn-lg" type="reset">Back</button>
+                                <button class="btn btn-danger" type="submit">New Company Form</button>
+                                <button class="btn btn-primary pull-right mb-3" type="submit"></i> Register</button>
                             </div>
                       </div>
                 </form>
-               
+              </div>
             
               </div>
                
