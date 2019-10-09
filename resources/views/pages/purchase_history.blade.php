@@ -31,7 +31,7 @@
 							<td>IDR. 1,650,000</td>
 							<td>Paid (decline)</td>
 							<td></td>
-							<td><a href="#">Upload Payment Attachmenta</a></td>
+							<td><a href="#">Upload Payment Attachments</a></td>
 							<td><a href="#">Detail</a></td>
 						</tr>
 						<tr align="center">
@@ -42,7 +42,7 @@
 							<td>IDR. 1,650,000</td>
 							<td>Paid (success)</td>
 							<td></td>
-							<td><a href="#">Upload Payment Attachmenta</a></td>
+							<td><a href="#">Upload Payment Attachments</a></td>
 							<td><a href="#">Detail</a></td>
 						</tr>
 						<tr align="center">
@@ -53,7 +53,7 @@
 							<td>IDR. 1,650,000</td>
 							<td>Unpaid</td>
 							<td></td>
-							<td><a href="#">Upload Payment Attachmenta</a></td>
+							<td><a href="#">Upload Payment Attachments</a></td>
 							<td><a href="#">Detail</a></td>
 						</tr>
 						<tr align="center">
@@ -64,7 +64,7 @@
 							<td>IDR. 1,650,000</td>
 							<td>Paid (success)</td>
 							<td></td>
-							<td><a href="#">Upload Payment Attachmenta</a></td>
+							<td><a href="#">Upload Payment Attachments</a></td>
 							<td><a href="#">Detail</a></td>
 						</tr>
 						<tr align="center">
@@ -75,7 +75,7 @@
 							<td>IDR. 1,650,000</td>
 							<td>Paid (decline)</td>
 							<td></td>
-							<td><a href="#">Upload Payment Attachmenta</a></td>
+							<td><a href="#">Upload Payment Attachments</a></td>
 							<td><a href="#">Detail</a></td>
 						</tr>
 						<tr align="center">
@@ -86,7 +86,7 @@
 							<td>IDR. 1,650,000</td>
 							<td>Paid (decline)</td>
 							<td></td>
-							<td><a href="#">Upload Payment Attachmenta</a></td>
+							<td><a href="#">Upload Payment Attachments</a></td>
 							<td><a href="#">Detail</a></td>
 						</tr>
 						<tr align="center">
@@ -97,7 +97,7 @@
 							<td>IDR. 1,650,000</td>
 							<td>Paid (decline)</td>
 							<td></td>
-							<td><a href="#">Upload Payment Attachmenta</a></td>
+							<td><a href="#">Upload Payment Attachments</a></td>
 							<td><a href="#">Detail</a></td>
 						</tr>
 						<tr align="center">
@@ -108,7 +108,7 @@
 							<td>IDR. 1,650,000</td>
 							<td>Paid (decline)</td>
 							<td></td>
-							<td><a href="#">Upload Payment Attachmenta</a></td>
+							<td><a href="#">Upload Payment Attachments</a></td>
 							<td><a href="#">Detail</a></td>
 						</tr>
 						</tbody>
