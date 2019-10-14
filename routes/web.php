@@ -77,6 +77,10 @@ Route::get('/cart', function () {
     return view('pages.shopping_cart');
 });
 
+Route::get('/checkout', function () {
+    return view('pages.checkout');
+});
+
 // AUTH
 
 Route::get('/login', function () {
@@ -85,4 +89,10 @@ Route::get('/login', function () {
 
 Route::get('/register', function () {
     return view('pages.registration');
+});
+
+// EXAMPLE
+
+Route::get('/example', function () {
+    return view('pages.example');
 });

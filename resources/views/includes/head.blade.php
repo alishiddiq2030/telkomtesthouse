@@ -18,5 +18,11 @@
 
 <!-- Javascript -->
 <script src="styles/custom/script1.js"></script>
+<script src="js/custom/script2.js"></script>
+
+<script type="text/javascript" src="http://telkomtesthouse.co.id/new-layout/js/jquery.js"></script>
+<script type="text/javascript" src="http://telkomtesthouse.co.id/new-layout/js/plugins.js"></script>
+<script type="text/javascript" src="http://telkomtesthouse.co.id/vendor/jquerymaterial/jquery.material.form.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-show-password/1.0.3/bootstrap-show-password.min.js"></script>
 
 <title>Telkom Test House</title>

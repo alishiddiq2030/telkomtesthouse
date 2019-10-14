@@ -67,7 +67,7 @@
                         </li>
                         <li class="profile">
                             <a href="#">
-                                Service
+                                INFORMATION
                                 <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="profile_selection" style="text-align:left;">
