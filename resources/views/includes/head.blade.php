@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="styles/custom/style1.css">
+<link rel="stylesheet" type="text/css" href="styles/custom/style2.css">
 <link rel="stylesheet" type="text/css" href="styles/custom/tab.css">
 <link rel="icon" href="images/favico.png">
 

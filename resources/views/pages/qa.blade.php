@@ -3,7 +3,6 @@
 @section('content')
 
 <div class="step-main">
-	
         <div class="step-container">
             <h4>Quality Assurance Testing Process </h4>
             <hr>
@@ -155,7 +154,7 @@
                 </fieldset>
 
                 <h3>
-                    <span class="title_text">Account Infomation</span>
+                    <span class="title_text">Data Lampiran</span>
                 </h3>
                 <fieldset>
                     <div class="fieldset-content">
@@ -194,7 +193,7 @@
                 </fieldset>
 
                 <h3>
-                    <span class="title_text">Account Infomation</span>
+                    <span class="title_text">Preview</span>
                 </h3>
                 <fieldset>
                     <div class="fieldset-content">
@@ -233,7 +232,7 @@
                 </fieldset>
 
                 <h3>
-                    <span class="title_text">Account Infomation</span>
+                    <span class="title_text">Unggah Form Testing</span>
                 </h3>
                 <fieldset>
                     <div class="fieldset-content">
@@ -271,8 +270,8 @@
                     </div>
                 </fieldset>
 
-                                <h3>
-                    <span class="title_text">Account Infomation</span>
+                <h3>
+                    <span class="title_text">Selesai</span>
                 </h3>
                 <fieldset>
                     <div class="fieldset-content">
