@@ -85,3 +85,9 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('pages.registration');
 });
+
+// QNA
+
+Route::get('/faq', function () {
+    return view('pages.qna');
+});
