@@ -64,6 +64,9 @@ Route::get('/progress', function () {
 Route::get('/process', function () {
     return view('pages.process');
 });
+Route::get('/qa', function () {
+    return view('pages.qa');
+});
 
 Route::get('/purchase', function () {
     return view('pages.purchase_history');
