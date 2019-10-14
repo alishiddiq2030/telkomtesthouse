@@ -99,3 +99,9 @@ Route::get('/register', function () {
 Route::get('/example', function () {
     return view('pages.example');
 });
+
+// EXAMPLE
+
+Route::get('/faq', function () {
+    return view('pages.faq');
+});
