@@ -150,7 +150,46 @@
                     </div>
 
                     <div class="fieldset-footer">
-                        <span>Step 3 of 3</span>
+                        <span>Step 3 of 7</span>
+                    </div>
+                </fieldset>
+
+                <h3>
+                    <span class="title_text">Data Lampiran</span>
+                </h3>
+                <fieldset>
+                    <div class="fieldset-content">
+                        <div class="form-group">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" name="username" id="username" placeholder="User Name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Your Email" />
+                        </div>
+                        <div class="form-group form-password">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" name="password" id="password" data-indicator="pwindicator" />
+                            <div id="pwindicator">
+                                <div class="bar-strength">
+                                    <div class="bar-process">
+                                        <div class="bar"></div>
+                                    </div>
+                                </div>
+                                <div class="label"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="your_avatar" class="form-label">Select avatar</label>
+                            <div class="form-file">
+                                <input type="file" name="your_avatar" id="your_avatar" class="custom-file-input" />
+                                <span id='val'></span>
+                                <span id='button'>Select File</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fieldset-footer">
+                        <span>Step 4 of 7</span>
                     </div>
                 </fieldset>
 
@@ -189,7 +228,7 @@
                         </div>
                     </div>
                     <div class="fieldset-footer">
-                        <span>Step 1 of 3</span>
+                        <span>Step 5 of 7</span>
                     </div>
                 </fieldset>
 
@@ -228,46 +267,7 @@
                         </div>
                     </div>
                     <div class="fieldset-footer">
-                        <span>Step 1 of 3</span>
-                    </div>
-                </fieldset>
-
-                <h3>
-                    <span class="title_text">Account Infomation</span>
-                </h3>
-                <fieldset>
-                    <div class="fieldset-content">
-                        <div class="form-group">
-                            <label for="username" class="form-label">Username</label>
-                            <input type="text" name="username" id="username" placeholder="User Name" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Your Email" />
-                        </div>
-                        <div class="form-group form-password">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" name="password" id="password" data-indicator="pwindicator" />
-                            <div id="pwindicator">
-                                <div class="bar-strength">
-                                    <div class="bar-process">
-                                        <div class="bar"></div>
-                                    </div>
-                                </div>
-                                <div class="label"></div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="your_avatar" class="form-label">Select avatar</label>
-                            <div class="form-file">
-                                <input type="file" name="your_avatar" id="your_avatar" class="custom-file-input" />
-                                <span id='val'></span>
-                                <span id='button'>Select File</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fieldset-footer">
-                        <span>Step 1 of 3</span>
+                        <span>Step 6 of 7</span>
                     </div>
                 </fieldset>
 
@@ -306,7 +306,7 @@
                         </div>
                     </div>
                     <div class="fieldset-footer">
-                        <span>Step 1 of 3</span>
+                        <span>Step 7 of 7</span>
                     </div>
                 </fieldset>
 
