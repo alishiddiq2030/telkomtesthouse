@@ -149,7 +149,7 @@
                     </div>
 
                     <div class="fieldset-footer">
-                        <span>Step 3 of 3</span>
+                        <span>Step 3 of 7</span>
                     </div>
                 </fieldset>
 
@@ -188,7 +188,7 @@
                         </div>
                     </div>
                     <div class="fieldset-footer">
-                        <span>Step 1 of 3</span>
+                        <span>Step 4 of 7</span>
                     </div>
                 </fieldset>
 
@@ -227,7 +227,7 @@
                         </div>
                     </div>
                     <div class="fieldset-footer">
-                        <span>Step 1 of 3</span>
+                        <span>Step 5 of 7</span>
                     </div>
                 </fieldset>
 
@@ -266,7 +266,7 @@
                         </div>
                     </div>
                     <div class="fieldset-footer">
-                        <span>Step 1 of 3</span>
+                        <span>Step 6 of 7</span>
                     </div>
                 </fieldset>
 
@@ -305,7 +305,7 @@
                         </div>
                     </div>
                     <div class="fieldset-footer">
-                        <span>Step 1 of 3</span>
+                        <span>Step 7 of 7</span>
                     </div>
                 </fieldset>
 
