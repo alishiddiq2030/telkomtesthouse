@@ -7,7 +7,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md">
-					<h4>STSEL</h4>
+					<h4>S-TSEL</h4>
 					<hr/>
 					<form class="active-pink align-right">
 						<input class="form-control w-50" type="text" placeholder="Search by Device Name">

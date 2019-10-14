@@ -73,6 +73,10 @@ Route::get('/buy_stel', function () {
     return view('pages.buy_stel');
 });
 
+Route::get('/cart', function () {
+    return view('pages.shopping_cart');
+});
+
 // AUTH
 
 Route::get('/login', function () {
