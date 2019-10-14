@@ -70,10 +70,7 @@
 <script src="plugins/easing/easing.js"></script>
 <script src="js/custom.js"></script>
 
-<script src="js/jquery/jquery.min.js"></script>
-<script src="js/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="js/jquery-validation/dist/additional-methods.min.js"></script>
-<script src="js/jquery-steps/jquery.steps.min.js"></script>
-<script src="js/minimalist-picker/dobpicker.js"></script>
-<script src="js/jquery.pwstrength/jquery.pwstrength.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.steps.js"></script>
+<script src="js/jquery-ui.min.js"></script>
 <script src="js/main.js"></script>

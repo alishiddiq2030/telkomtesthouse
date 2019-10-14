@@ -14,6 +14,8 @@
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="styles/custom/style1.css">
 <link rel="stylesheet" type="text/css" href="styles/custom/tab.css">
+<link rel="stylesheet" type="text/css" href="styles/jquery-ui.min.css">
+<link rel="stylesheet" href="styles/stepstyle.css"/>
 <link rel="icon" href="images/favico.png">
 
 <!-- Javascript -->
