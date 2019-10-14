@@ -9,7 +9,7 @@
 			<div class="row align-items-center fill_height">
 				<div class="col">
 					<div class="main_slider_content">
-						<h4>We Are Serving Telecommunication Device Testing With Internatonal Quality Standard</h4>
+						<h4><b>We Are Serving Telecommunication Device Testing <br> <br> With Internatonal Quality Standard</b></h4>
 			<!-- 			<div class="red_button shop_now_button"><a href="#">About Us</a></div>
 						<div class="red_button shop_now_button"><a href="#">Our Services</a></div> -->
 					</div>
