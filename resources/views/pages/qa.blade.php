@@ -21,8 +21,8 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="text" name="email" id="email" class="form-control" required>
-                                            <span class="label">Email Address</span>
+                                            <input type="text" class="form-control" id="username" name="username" required>
+                                            <span class="label">Name</span>
                                             <span class="border"></span>
                                         </label>
                                     </div>
@@ -30,8 +30,8 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="username" name="username" required>
-                                            <span class="label">Username</span>
+                                            <input type="text" name="email" id="email" class="form-control" required>
+                                            <span class="label">Email</span>
                                             <span class="border"></span>
                                         </label>
                                     </div>
