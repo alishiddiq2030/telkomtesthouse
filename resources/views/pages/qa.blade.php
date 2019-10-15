@@ -6,7 +6,7 @@
         <div class="wizard-v3-content">
             <div class="wizard-form">
                 <div class="wizard-header">
-                    <h3 class="heading mt-3">QUALITY ASSURANCE TESTING PROCESS</h3>
+                    <h3 class="heading mt-5">QUALITY ASSURANCE TESTING PROCESS</h3>
                 </div>
                 <form class="form-register" action="#" method="post">
                     <div id="form-total">
@@ -339,43 +339,7 @@
                         </h2>
                         <section>
                             <div class="inner">
-                                <h3>Account Information:</h3>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="text" name="email" id="email"  required>
-                                            <span class="label">Email Address</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="text"  id="username" name="username" required>
-                                            <span class="label">Username</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="password" name="password_1" id="password_1"  required>
-                                            <span class="label">Password</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1"  required>
-                                            <span class="label">Comfirm Password</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
+                                <h3 style="text-align:center; color:#8D8D8D;" class="mt-3">Thank you, your registration will be processed further</h3>
                             </div>
                         </section>
                     </div>
