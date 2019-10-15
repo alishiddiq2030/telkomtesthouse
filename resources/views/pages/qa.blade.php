@@ -21,7 +21,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="text" name="email" id="email" class="form-control" required>
+                                            <input type="text" name="email" id="email" required>
                                             <span class="label">Email Address</span>
                                             <span class="border"></span>
                                         </label>
@@ -30,7 +30,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="username" name="username" required>
+                                            <input type="text" id="username" name="username" required>
                                             <span class="label">Username</span>
                                             <span class="border"></span>
                                         </label>
@@ -39,7 +39,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="password" name="password_1" id="password_1" class="form-control" required>
+                                            <input type="password" name="password_1" id="password_1" required>
                                             <span class="label">Password</span>
                                             <span class="border"></span>
                                         </label>
@@ -48,7 +48,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1" class="form-control" required>
+                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1" required>
                                             <span class="label">Comfirm Password</span>
                                             <span class="border"></span>
                                         </label>
@@ -67,14 +67,14 @@
                                 <div class="form-row">
                                     <div class="form-holder">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="first_name" name="first_name" required>
+                                            <input type="text" id="first_name" name="first_name" required>
                                             <span class="label">First Name*</span>
                                             <span class="border"></span>
                                         </label>
                                     </div>
                                     <div class="form-holder">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="last_name" name="last_name" required>
+                                            <input type="text" id="last_name" name="last_name" required>
                                             <span class="label">Last Name*</span>
                                             <span class="border"></span>
                                         </label>
@@ -117,7 +117,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="phone" name="phone" required>
+                                            <input type="text"  id="phone" name="phone" required>
                                             <span class="label">Phone Number*</span>
                                             <span class="border"></span>
                                         </label>
@@ -126,7 +126,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-1">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="address" name="address" required>
+                                            <input type="text"  id="address" name="address" required>
                                             <span class="label">Address*</span>
                                             <span class="border"></span>
                                         </label>
@@ -153,7 +153,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="holder" name="holder" required>
+                                            <input type="text"  id="holder" name="holder" required>
                                             <span class="label">Holder Name*</span>
                                             <span class="border"></span>
                                         </label>
@@ -162,14 +162,14 @@
                                 <div class="form-row">
                                     <div class="form-holder">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="card" name="card" required>
+                                            <input type="text"  id="card" name="card" required>
                                             <span class="label">Card Number*</span>
                                             <span class="border"></span>
                                         </label>
                                     </div>
                                     <div class="form-holder">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="cvc" name="cvc" required>
+                                            <input type="text"  id="cvc" name="cvc" required>
                                             <span class="label">CVC*</span>
                                             <span class="border"></span>
                                         </label>
@@ -252,7 +252,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="text" name="email" id="email" class="form-control" required>
+                                            <input type="text" name="email" id="email"  required>
                                             <span class="label">Email Address</span>
                                             <span class="border"></span>
                                         </label>
@@ -261,7 +261,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="username" name="username" required>
+                                            <input type="text"  id="username" name="username" required>
                                             <span class="label">Username</span>
                                             <span class="border"></span>
                                         </label>
@@ -270,7 +270,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="password" name="password_1" id="password_1" class="form-control" required>
+                                            <input type="password" name="password_1" id="password_1"  required>
                                             <span class="label">Password</span>
                                             <span class="border"></span>
                                         </label>
@@ -279,7 +279,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1" class="form-control" required>
+                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1"  required>
                                             <span class="label">Comfirm Password</span>
                                             <span class="border"></span>
                                         </label>
@@ -298,7 +298,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="text" name="email" id="email" class="form-control" required>
+                                            <input type="text" name="email" id="email"  required>
                                             <span class="label">Email Address</span>
                                             <span class="border"></span>
                                         </label>
@@ -307,7 +307,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="username" name="username" required>
+                                            <input type="text"  id="username" name="username" required>
                                             <span class="label">Username</span>
                                             <span class="border"></span>
                                         </label>
@@ -316,7 +316,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="password" name="password_1" id="password_1" class="form-control" required>
+                                            <input type="password" name="password_1" id="password_1"  required>
                                             <span class="label">Password</span>
                                             <span class="border"></span>
                                         </label>
@@ -325,7 +325,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1" class="form-control" required>
+                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1"  required>
                                             <span class="label">Comfirm Password</span>
                                             <span class="border"></span>
                                         </label>
@@ -344,7 +344,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="text" name="email" id="email" class="form-control" required>
+                                            <input type="text" name="email" id="email"  required>
                                             <span class="label">Email Address</span>
                                             <span class="border"></span>
                                         </label>
@@ -353,7 +353,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="username" name="username" required>
+                                            <input type="text"  id="username" name="username" required>
                                             <span class="label">Username</span>
                                             <span class="border"></span>
                                         </label>
@@ -362,7 +362,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="password" name="password_1" id="password_1" class="form-control" required>
+                                            <input type="password" name="password_1" id="password_1"  required>
                                             <span class="label">Password</span>
                                             <span class="border"></span>
                                         </label>
@@ -371,7 +371,7 @@
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
-                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1" class="form-control" required>
+                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1"  required>
                                             <span class="label">Comfirm Password</span>
                                             <span class="border"></span>
                                         </label>

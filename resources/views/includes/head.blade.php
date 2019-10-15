@@ -16,8 +16,13 @@
 <link rel="stylesheet" type="text/css" href="styles/custom/style2.css">
 <link rel="stylesheet" type="text/css" href="styles/custom/tab.css">
 <link rel="stylesheet" href="styles/stepstyle.css"/>
-<link rel="stylesheet" href="styles/jquery-ui.min.css"/>
+<link rel="stylesheet" type="text/css" href="styles/jquery-ui.min.css">
 <link rel="icon" href="images/favico.png">
+
+
+<!-- <link rel="stylesheet" type="text/css" href="css/roboto-font.css">
+<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css"> -->
+
 
 <!-- Javascript -->
 <script src="styles/custom/script1.js"></script>
