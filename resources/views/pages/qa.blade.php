@@ -248,71 +248,46 @@
                                         </label>
                                     </div>
                                 </div>
-
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
-                                         <label>SIUPP File</label>
+                                         <label>Date of SIUPP</label>
+                                          <input size="16" type="text" value="2012-06-15" readonly class="form_datetime">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                         <label>Quality System Certificate File</label>
                                           <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
-                                         <label>SIUPP File</label>
+                                         <label>Date of Quality System Certificate File</label>
+                                          <input size="16" type="text" value="2012-06-15" readonly class="form_datetime">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                         <label>NPWP File</label>
                                           <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
-                                         <label>SIUPP File</label>
+                                         <label>Test Reference</label>
                                           <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
-                                         <label>SIUPP File</label>
+                                         <label>Support Principals</label>
                                           <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
-                                         <label>SIUPP File</label>
+                                         <label>Another File</label>
                                           <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="text" name="email" id="email" required>
-                                            <span class="label">Email</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="text" name="email" id="email" required>
-                                            <span class="label">Alternate Email</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="text" id="username" name="username" required>
-                                            <span class="label">Phone</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="text" id="username" name="username" required>
-                                            <span class="label">Facsimile</span>
-                                            <span class="border"></span>
-                                        </label>
                                     </div>
                                 </div>
                             </div>
