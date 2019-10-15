@@ -331,7 +331,7 @@
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
                                             <input type="password" name="comfirm_password_1" id="comfirm_password_1"  required>
-                                            <span class="label">Comfirm Password</span>
+                                            <span class="label">Confirm Password</span>
                                             <span class="border"></span>
                                         </label>
                                     </div>
@@ -345,43 +345,41 @@
                         </h2>
                         <section>
                             <div class="inner">
-                                <h3>Account Information:</h3>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="text" name="email" id="email"  required>
-                                            <span class="label">Email Address</span>
-                                            <span class="border"></span>
-                                        </label>
+                            <section>
+                            <div class="container p-5">
+                                <!-- For demo purpose -->
+                                <div class="row mb-5 text-center text-white">
+                                <div class="col-lg-10 mx-auto">
+                                    <h1 class="display-4">Upload Files </h1>
+                                </div>
+                                </div>
+                                <!-- End -->
+
+
+                                <div class="row">
+                                <div class="col-lg-5 mx-auto">
+                                    <div class="p-5 bg-white shadow rounded-lg">
+
+                                    <!-- Default bootstrap file upload-->
+
+                                    <h6 class="text-center mb-4 text-muted">
+                                        Upload your testing form here!
+                                    </h6>
+
+                                    <!-- Custom bootstrap upload file-->
+                                    <label for="fileUpload" class="file-upload btn btn-light btn-block rounded-pill shadow"><i class="fa fa-upload mr-2"></i>Browse for file ...
+                                        <input id="fileUpload" type="file">
+                                    </label>
+                                    <button class="btn btn-danger mt-3 mr-1" style="width:172px">Upload Now</button>
+                                    <button class="btn btn-light mt-3" style="width:172px">Upload Later</button>
+                                    <!-- End -->
+
                                     </div>
                                 </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="text"  id="username" name="username" required>
-                                            <span class="label">Username</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
                                 </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="password" name="password_1" id="password_1"  required>
-                                            <span class="label">Password</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1"  required>
-                                            <span class="label">Comfirm Password</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
+                            </div>
+                            </section>
+
                             </div>
                         </section>
                         <!-- SECTION 1 -->
