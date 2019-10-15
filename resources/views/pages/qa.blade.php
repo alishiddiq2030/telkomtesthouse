@@ -6,7 +6,7 @@
         <div class="wizard-v3-content">
             <div class="wizard-form">
                 <div class="wizard-header">
-                    <h3 class="heading mt-5">QUALITY ASSURANCE TESTING PROCESS</h3>
+                    <h3 class="heading mt-3">QUALITY ASSURANCE TESTING PROCESS</h3>
                 </div>
                 <form class="form-register" action="#" method="post">
                     <div id="form-total">
