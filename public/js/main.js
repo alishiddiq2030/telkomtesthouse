@@ -1,88 +1,39 @@
-(function($) {
-
-    var form = $("#signup-form");
-    form.validate({
-        errorPlacement: function errorPlacement(error, element) {
-            element.before(error);
-        },
-        rules: {
-            username: {
-                required: true,
-            },
-            email: {
-                required: true,
-                email : true
-            }
-        },
-        messages : {
-            email: {
-                email: 'Not a valid email address <i class="zmdi zmdi-info"></i>'
-            }
-        },
-        onfocusout: function(element) {
-            $(element).valid();
-        },
-    });
-    form.steps({
-        headerTag: "h3",
-        bodyTag: "fieldset",
-        transitionEffect: "slideLeft",
+$(function(){
+    $("#form-total").steps({
+        headerTag: "h2",
+        bodyTag: "section",
+        transitionEffect: "fade",
+        enableAllSteps: true,
+        autoFocus: true,
+        transitionEffectSpeed: 500,
+        titleTemplate : '<div class="title">#title#</div>',
         labels: {
-            previous: 'Previous',
-            next: 'Next',
-            finish: 'Submit',
-            current: ''
+            previous : 'Previous',
+            next : 'Next Step',
+            finish : 'Submit',
+            current : ''
         },
-        titleTemplate: '<div class="title"><span class="number">#index#</span>#title#</div>',
-        onStepChanging: function(event, currentIndex, newIndex) {
-            form.validate().settings.ignore = ":disabled,:hidden";
-            // console.log(form.steps("getCurrentIndex"));
-            return form.valid();
-        },
-        onFinishing: function(event, currentIndex) {
-            form.validate().settings.ignore = ":disabled";
-            console.log(getCurrentIndex);
-            return form.valid();
-        },
-        onFinished: function(event, currentIndex) {
-            alert('Sumited');
-        },
-        // onInit : function (event, currentIndex) {
-        //     event.append('demo');
-        // }
+        onStepChanging: function (event, currentIndex, newIndex) { 
+            var fullname = $('#first_name').val() + ' ' + $('#last_name').val();
+            var email = $('#email').val();
+            var phone = $('#phone').val();
+            var username = $('#username').val();
+            var gender = $('form input[type=radio]:checked').val();
+            var address = $('#address').val();
+
+            $('#fullname-val').text(fullname);
+            $('#email-val').text(email);
+            $('#phone-val').text(phone);
+            $('#username-val').text(username);
+            $('#address-val').text(address);
+            $('#gender-val').text(gender);
+
+            return true;
+        }
     });
-
-    jQuery.extend(jQuery.validator.messages, {
-        required: "",
-        remote: "",
-        url: "",
-        date: "",
-        dateISO: "",
-        number: "",
-        digits: "",
-        creditcard: "",
-        equalTo: ""
+    $("#date").datepicker({
+        dateFormat: "MM - DD - yy",
+        showOn: "both",
+        buttonText : '<i class="zmdi zmdi-chevron-down"></i>',
     });
-
-
-    $.dobPicker({
-        daySelector: '#expiry_date',
-        monthSelector: '#expiry_month',
-        yearSelector: '#expiry_year',
-        dayDefault: 'DD',
-        yearDefault: 'YYYY',
-        minimumAge: 0,
-        maximumAge: 120
-    });
-
-    $('#password').pwstrength();
-
-    $('#button').click(function () {
-        $("input[type='file']").trigger('click');
-    })
-    
-    $("input[type='file']").change(function () {
-        $('#val').text(this.value.replace(/C:\\fakepath\\/i, ''))
-    })
-
-})(jQuery);
+});

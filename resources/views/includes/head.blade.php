@@ -15,6 +15,8 @@
 <link rel="stylesheet" type="text/css" href="styles/custom/style1.css">
 <link rel="stylesheet" type="text/css" href="styles/custom/style2.css">
 <link rel="stylesheet" type="text/css" href="styles/custom/tab.css">
+<link rel="stylesheet" href="styles/stepstyle.css"/>
+<link rel="stylesheet" href="styles/jquery-ui.min.css"/>
 <link rel="icon" href="images/favico.png">
 
 <!-- Javascript -->
@@ -25,5 +27,6 @@
 <script type="text/javascript" src="http://telkomtesthouse.co.id/new-layout/js/plugins.js"></script>
 <script type="text/javascript" src="http://telkomtesthouse.co.id/vendor/jquerymaterial/jquery.material.form.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-show-password/1.0.3/bootstrap-show-password.min.js"></script>
+
 
 <title>Telkom Test House</title>
