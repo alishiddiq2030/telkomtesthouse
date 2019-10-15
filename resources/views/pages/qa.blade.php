@@ -18,7 +18,6 @@
                         </h2>
                         <section>
                             <div class="inner">
-                                <h3>Account Information:</h3>
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
@@ -239,6 +238,144 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- SECTION 1 -->
+                        <h2>
+                            <span class="step-icon"><i align="center">1</i></span>
+                            <span class="step-text">About</span>
+                        </h2>
+                        <section>
+                            <div class="inner">
+                                <h3>Account Information:</h3>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
+                                            <input type="text" name="email" id="email" class="form-control" required>
+                                            <span class="label">Email Address</span>
+                                            <span class="border"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
+                                            <input type="text" class="form-control" id="username" name="username" required>
+                                            <span class="label">Username</span>
+                                            <span class="border"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
+                                            <input type="password" name="password_1" id="password_1" class="form-control" required>
+                                            <span class="label">Password</span>
+                                            <span class="border"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
+                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1" class="form-control" required>
+                                            <span class="label">Comfirm Password</span>
+                                            <span class="border"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- SECTION 1 -->
+                        <h2>
+                            <span class="step-icon"><i align="center">1</i></span>
+                            <span class="step-text">About</span>
+                        </h2>
+                        <section>
+                            <div class="inner">
+                                <h3>Account Information:</h3>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
+                                            <input type="text" name="email" id="email" class="form-control" required>
+                                            <span class="label">Email Address</span>
+                                            <span class="border"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
+                                            <input type="text" class="form-control" id="username" name="username" required>
+                                            <span class="label">Username</span>
+                                            <span class="border"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
+                                            <input type="password" name="password_1" id="password_1" class="form-control" required>
+                                            <span class="label">Password</span>
+                                            <span class="border"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
+                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1" class="form-control" required>
+                                            <span class="label">Comfirm Password</span>
+                                            <span class="border"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- SECTION 1 -->
+                        <h2>
+                            <span class="step-icon"><i align="center">1</i></span>
+                            <span class="step-text">About</span>
+                        </h2>
+                        <section>
+                            <div class="inner">
+                                <h3>Account Information:</h3>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
+                                            <input type="text" name="email" id="email" class="form-control" required>
+                                            <span class="label">Email Address</span>
+                                            <span class="border"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
+                                            <input type="text" class="form-control" id="username" name="username" required>
+                                            <span class="label">Username</span>
+                                            <span class="border"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
+                                            <input type="password" name="password_1" id="password_1" class="form-control" required>
+                                            <span class="label">Password</span>
+                                            <span class="border"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
+                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1" class="form-control" required>
+                                            <span class="label">Comfirm Password</span>
+                                            <span class="border"></span>
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                         </section>
