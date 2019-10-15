@@ -6,15 +6,14 @@
         <div class="wizard-v3-content">
             <div class="wizard-form">
                 <div class="wizard-header">
-                    <h3 class="heading">Sign Up Your User Account</h3>
-                    <p>Fill all form field to go next step</p>
+                    <h3 class="heading mt-3">QUALITY ASSURANCE TESTING PROCESS</h3>
                 </div>
                 <form class="form-register" action="#" method="post">
                     <div id="form-total">
                         <!-- SECTION 1 -->
                         <h2>
                             <span class="step-icon"><i align="center">1</i></span>
-                            <span class="step-text">About</span>
+                            <span class="step-text">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Registrasi</span>
                         </h2>
                         <section>
                             <div class="inner">
@@ -59,7 +58,7 @@
                         <!-- SECTION 2 -->
                         <h2>
                             <span class="step-icon"><i align="center">2</i></span>
-                            <span class="step-text">About</span>
+                            <span class="step-text">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Perusahaan</span>
                         </h2>
                         <section>
                             <div class="inner">
@@ -137,7 +136,7 @@
                         <!-- SECTION 3 -->
                         <h2>
                             <span class="step-icon"><i align="center">3</i></span>
-                            <span class="step-text">About</span>
+                            <span class="step-text">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Perangkat</span>
                         </h2>
                         <section>
                             <div class="inner">
@@ -200,7 +199,7 @@
                         <!-- SECTION 4 -->
                         <h2>
                             <span class="step-icon"><i align="center">4</i></span>
-                            <span class="step-text">About</span>
+                            <span class="step-text">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Lampiran</span>
                         </h2>
                         <section>
                             <div class="inner">
@@ -243,8 +242,8 @@
                         </section>
                         <!-- SECTION 1 -->
                         <h2>
-                            <span class="step-icon"><i align="center">1</i></span>
-                            <span class="step-text">About</span>
+                            <span class="step-icon"><i align="center">5</i></span>
+                            <span class="step-text">Preview</span>
                         </h2>
                         <section>
                             <div class="inner">
@@ -289,8 +288,8 @@
                         </section>
                         <!-- SECTION 1 -->
                         <h2>
-                            <span class="step-icon"><i align="center">1</i></span>
-                            <span class="step-text">About</span>
+                            <span class="step-icon"><i align="center">6</i></span>
+                            <span class="step-text">&nbsp;&nbsp;Unggah<br>Form Testing</span>
                         </h2>
                         <section>
                             <div class="inner">
@@ -335,8 +334,8 @@
                         </section>
                         <!-- SECTION 1 -->
                         <h2>
-                            <span class="step-icon"><i align="center">1</i></span>
-                            <span class="step-text">About</span>
+                            <span class="step-icon"><i align="center">7</i></span>
+                            <span class="step-text">&nbsp;&nbsp;Selesai</span>
                         </h2>
                         <section>
                             <div class="inner">
