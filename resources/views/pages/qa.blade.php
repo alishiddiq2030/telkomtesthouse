@@ -292,14 +292,15 @@
                                 </div>
                             </div>
                         </section>
-                        <!-- SECTION 4 -->
+                        <!-- SECTION 5 -->
                         <h2>
                             <span class="step-icon"><i align="center">5</i></span>
                             <span class="step-text">Preview</span>
                         </h2>
                          <section>
                             <div class="inner">
-                                <h3>Application's Data</h3>
+
+                                <h3 class="form-title">Application's Data</h3>
                                 <div class="form-row table-responsive">
                                     <table class="table">
                                         <tbody>
@@ -326,7 +327,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <h3>Company's Data (Agent)</h3>
+                                <h3 class="form-title">Company's Data (Agent)</h3>
                                 <div class="form-row table-responsive">
                                     <table class="table">
                                         <tbody>
@@ -361,7 +362,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <h3>Device's Data (Telkom's Lab Testing)</h3>
+                                    <h3 class="form-title">Device's Data (Telkom's Lab Testing)</h3>
                                 <div class="form-row table-responsive">
                                     <table class="table">
                                         <tbody>
@@ -384,7 +385,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <h3>Appendix's Document</h3>
+                                    <h3 class="form-title">Appendix's Document</h3>
                                 <div class="form-row table-responsive">
                                     <table class="table">
                                         <tbody>
