@@ -324,7 +324,7 @@
 }
 .inner .form-row .form-holder input,
 .inner .form-row .form-holder select {
-    width: 100%;
+    width: 350%;
     padding: 13px 10px 8px;
     border: none;
     border-bottom: 2px solid #e5e5e5;

@@ -19,7 +19,7 @@
                             <div class="inner">
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
-                                        <!-- <label class="form-row-inner"> -->
+                                        <label class="form-row-inner">
                                             <input type="text" id="username" name="username" required>
                                             <span class="label">Name</span>
                                             <span class="border"></span>
@@ -169,6 +169,7 @@
                                 </div>
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
                                          <label class="select">Test Reference</label>
                                           <select>
                                             <option>Choose STEL</option>
@@ -474,8 +475,8 @@
                                     <label for="fileUpload" class="file-upload btn btn-light btn-block rounded-pill shadow"><i class="fa fa-upload mr-2"></i>Browse for file ...
                                         <input id="fileUpload" type="file">
                                     </label>
-                                    <button class="btn btn-danger mt-3 mr-1" style="width:165px">Upload Now</button>
-                                    <button class="btn btn-light mt-3" style="width:165px">Upload Later</button>
+                                    <button class="btn btn-danger mt-3 mr-1" style="width:172px">Upload Now</button>
+                                    <button class="btn btn-light mt-3" style="width:172px">Upload Later</button>
                                     <!-- End -->
 
                                     </div>
