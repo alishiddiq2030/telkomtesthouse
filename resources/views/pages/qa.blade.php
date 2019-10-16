@@ -292,49 +292,149 @@
                                 </div>
                             </div>
                         </section>
-                        <!-- SECTION 1 -->
+                        <!-- SECTION 4 -->
                         <h2>
                             <span class="step-icon"><i align="center">5</i></span>
                             <span class="step-text">Preview</span>
                         </h2>
-                        <section>
+                         <section>
                             <div class="inner">
-                                <h3>Account Information:</h3>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="text" name="email" id="email"  required>
-                                            <span class="label">Email Address</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="text"  id="username" name="username" required>
-                                            <span class="label">Username</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="password" name="password_1" id="password_1"  required>
-                                            <span class="label">Password</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                            <input type="password" name="comfirm_password_1" id="comfirm_password_1"  required>
-                                            <span class="label">Comfirm Password</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
+                                <h3>Application's Data</h3>
+                                <div class="form-row table-responsive">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr class="space-row">
+                                                <th>Name</th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Address</th>
+                                                <td>Jl. Pager Gunung No. 3, Bandung, 40132</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Phone</th>
+                                                <td>08986342111</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Facsimile</th>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Email</th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                <h3>Company's Data (Agent)</h3>
+                                <div class="form-row table-responsive">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr class="space-row">
+                                                <th>Device Name</th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Brand Name</th>
+                                                <td>Jl. Pager Gunung No. 3, Bandung, 40132</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Model/Type</th>
+                                                <td>08986342111</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Capacity/Speed/Rate </th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Test Referemce</th>
+                                                <td>Jl. Pager Gunung No. 3, Bandung, 40132</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Serial Number</th>
+                                                <td>08986342111</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Made in</th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <h3>Device's Data (Telkom's Lab Testing)</h3>
+                                <div class="form-row table-responsive">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr class="space-row">
+                                                <th>Name</th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Address</th>
+                                                <td>Jl. Pager Gunung No. 3, Bandung, 40132</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Phone</th>
+                                                <td>08986342111</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Email</th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <h3>Appendix's Document</h3>
+                                <div class="form-row table-responsive">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr class="space-row">
+                                                <th>SIUPP File</th>
+                                                <td>Batere Asam Timbal Berventilasi Statsioner</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>No. SIUPP</th>
+                                                <td>Brand</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Date of SIUPP</th>
+                                                <td>L1234</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Quality System Certificate</th>
+                                                <td>3.0</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Quality System Certificate File</th>
+                                                <td>STEL U-003</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>No. SIUPP</th>
+                                                <td>Brand</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Date of SIUPP</th>
+                                                <td>L1234</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Quality System Certificate</th>
+                                                <td>3.0</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>SIUPP File</th>
+                                                <td>Batere Asam Timbal Berventilasi Statsioner</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>No. SIUPP</th>
+                                                <td>Brand</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Date of SIUPP</th>
+                                                <td>L1234</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Quality System Certificate</th>
+                                                <td>3.0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </section>
