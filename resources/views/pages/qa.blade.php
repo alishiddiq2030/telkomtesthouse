@@ -299,7 +299,6 @@
                         </h2>
                          <section>
                             <div class="inner">
-
                                 <h3>Application's Data</h3>
                                 <div class="form-row table-responsive">
                                     <table class="table">
@@ -326,6 +325,7 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                </div>
                                 <h3>Company's Data (Agent)</h3>
                                 <div class="form-row table-responsive">
                                     <table class="table">
@@ -360,7 +360,8 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <h3>Device's Data (Telkom's Lab Testing)</h3>
+                                </div>
+                                <h3>Device's Data (Telkom's Lab Testing)</h3>
                                 <div class="form-row table-responsive">
                                     <table class="table">
                                         <tbody>
@@ -382,7 +383,8 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <h3>Appendix's Document</h3>
+                                </div>
+                                <h3>Appendix's Document</h3>
                                 <div class="form-row table-responsive">
                                     <table class="table">
                                         <tbody>
