@@ -19,7 +19,7 @@
                             <div class="inner">
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
+                                        <!-- <label class="form-row-inner"> -->
                                             <input type="text" id="username" name="username" required>
                                             <span class="label">Name</span>
                                             <span class="border"></span>
