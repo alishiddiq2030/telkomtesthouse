@@ -474,8 +474,8 @@
                                     <label for="fileUpload" class="file-upload btn btn-light btn-block rounded-pill shadow"><i class="fa fa-upload mr-2"></i>Browse for file ...
                                         <input id="fileUpload" type="file">
                                     </label>
-                                    <button class="btn btn-danger mt-3 mr-1" style="width:172px">Upload Now</button>
-                                    <button class="btn btn-light mt-3" style="width:172px">Upload Later</button>
+                                    <button class="btn btn-danger mt-3 mr-1" style="width:165px">Upload Now</button>
+                                    <button class="btn btn-light mt-3" style="width:165px">Upload Later</button>
                                     <!-- End -->
 
                                     </div>

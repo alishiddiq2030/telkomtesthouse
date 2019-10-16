@@ -200,7 +200,7 @@ section
 }
 .clearfix
 {
-	zoom: 1;
+	zoom: 0.92;
 }
 .float_left
 {
