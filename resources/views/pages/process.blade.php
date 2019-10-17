@@ -16,7 +16,7 @@
                         <div class="col-md-6">
                             <h4>Quality Assurance (QA)</h4>
                             <p class="mt-3">Quality assurance testing of telecomunication device that is conducted based on Telecommunication Spesification (STEL) reference, and a certificate is issued by PT. Telkom Indonesia, Tbk to any comply devices with validity period.</p>
-                            <button type="button" class="btn btn-danger">PROCESS</button>
+                            <a href="qa" role="button" class="btn btn-danger">PROCESS</a>
                         </div> 
                     </div>
 

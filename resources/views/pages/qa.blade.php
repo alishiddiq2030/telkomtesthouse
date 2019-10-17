@@ -2,316 +2,526 @@
 
 @section('content')
 
-<div class="step-main">
-        <div class="step-container">
-            <h4>Quality Assurance Testing Process </h4>
-            <hr>
-            <form method="POST" id="signup-form" class="signup-form">
-                <h3>
-                    <span class="title_text">Data Registrasi</span>
-                </h3>
-                <fieldset>
-                    <div class="fieldset-content">
-                        <div class="form-group">
-                            <label for="username" class="form-label">Name</label>
-                            <input type="text" name="name" id="name" placeholder="Name" />
-                        </div>
-                         <div class="form-group">
-                            <label for="username" class="form-label">Address</label>
-                            <input type="text" name="address" id="address" placeholder="Adress" />
-                        </div>
-                        <div class="form-group">
-                            <label for="mail" class="form-label">Email</label>
-                            <input type="mail" name="mail" id="mail" placeholder="Your Email" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Alternate Email</label>
-                            <input type="alter-email" name="alter-email" id="alter-email" placeholder="Alternate Email" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Phone</label>
-                            <input type="phone" name="phone" id="phone" placeholder="Phone" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Facsimile</label>
-                            <input type="fac" name="fac" id="fac" placeholder="Facsimile" />
-                        </div>
-                        <!-- <div class="form-group form-password">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" name="password" id="password" data-indicator="pwindicator" />
-                            <div id="pwindicator">
-                                <div class="bar-strength">
-                                    <div class="bar-process">
-                                        <div class="bar"></div>
+<div class="page-content">
+        <div class="wizard-v3-content">
+            <div class="wizard-form">
+                <div class="wizard-header">
+                    <h3 class="heading mt-5">QUALITY ASSURANCE TESTING PROCESS</h3>
+                </div>
+                <form class="form-register" action="#" method="post">
+                    <div id="form-total">
+                        <!-- SECTION 1 -->
+                        <h2>
+                            <span class="step-icon"><i align="center">1</i></span>
+                            <span class="step-text">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Registrasi</span>
+                        </h2>
+                        <section>
+                            <div class="inner">
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">Name</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="label"></div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="your_avatar" class="form-label">Select avatar</label>
-                            <div class="form-file">
-                                <input type="file" name="your_avatar" id="your_avatar" class="custom-file-input" />
-                                <span id='val'></span>
-                                <span id='button'>Select File</span>
-                            </div>
-                        </div> -->
-                    </div>
-                    <div class="fieldset-footer">
-                        <span>Step 1 of 7</span>
-                    </div>
-                </fieldset>
-
-                <h3>
-                    <span class="title_text">Data Perusahaan</span>
-                </h3>
-                <fieldset>
-
-                    <div class="fieldset-content">
-    
-                        <div class="form-group">
-                            <label for="username" class="form-label">Name</label>
-                            <input type="text" name="name" id="name" placeholder="Name" />
-                        </div>
-                         <div class="form-group">
-                            <label for="username" class="form-label">Address</label>
-                            <input type="text" name="address" id="address" placeholder="Adress" />
-                        </div>
-                        <div class="form-group">
-                            <label for="mail" class="form-label">Email</label>
-                            <input type="mail" name="mail" id="mail" placeholder="Your Email" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Alternate Email</label>
-                            <input type="alter-email" name="alter-email" id="alter-email" placeholder="Alternate Email" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Phone</label>
-                            <input type="phone" name="phone" id="phone" placeholder="Phone" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Facsimile</label>
-                            <input type="fac" name="fac" id="fac" placeholder="Facsimile" />
-                        </div>
-                    </div>
-
-                    <div class="fieldset-footer">
-                        <span>Step 2 of 7</span>
-                    </div>
-
-                </fieldset>
-
-                <h3>
-                    <span class="title_text">Data Perangkat</span>
-                </h3>
-                <fieldset>
-                    <div class="fieldset-content">
-                        <div class="form-radio">
-                            <label for="payment_type">Payment Type</label>
-                            <div class="form-radio-flex">
-                                <input type="radio" name="payment_type" id="payment_visa" value="payment_visa" checked="checked" />
-                                <label for="payment_visa"><img src="images/icon-visa.png" alt=""></label>
-    
-                                <input type="radio" name="payment_type" id="payment_master" value="payment_master" />
-                                <label for="payment_master"><img src="images/icon-master.png" alt=""></label>
-    
-                                <input type="radio" name="payment_type" id="payment_paypal" value="payment_paypal" />
-                                <label for="payment_paypal"><img src="images/icon-paypal.png" alt=""></label>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="credit_card" class="form-label">Credit Card</label>
-                                <input type="text" name="credit_card" id="credit_card" />
-                            </div>
-                            <div class="form-group">
-                                <label for="cvc" class="form-label">CVC</label>
-                                <input type="text" name="cvc" id="cvc" />
-                            </div>
-                        </div>
-                        <div class="form-date">
-                            <label for="expiry_date">Expiration Date</label>
-                            <div class="form-flex">
-                                <div class="form-date-item">
-                                    <select id="expiry_date" name="expiry_date"></select>
-                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
-                                </div>
-                                <div class="form-date-item">
-                                    <select id="expiry_year" name="expiry_year"></select>
-                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="name_of_card" class="form-label">Name of card</label>
-                            <input type="text" name="name_of_card" id="name_of_card" />
-                        </div>
-                    </div>
-
-                    <div class="fieldset-footer">
-                        <span>Step 3 of 7</span>
-                    </div>
-                </fieldset>
-
-                <h3>
-                    <span class="title_text">Data Lampiran</span>
-                </h3>
-                <fieldset>
-                    <div class="fieldset-content">
-                        <div class="form-group">
-                            <label for="username" class="form-label">Username</label>
-                            <input type="text" name="username" id="username" placeholder="User Name" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Your Email" />
-                        </div>
-                        <div class="form-group form-password">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" name="password" id="password" data-indicator="pwindicator" />
-                            <div id="pwindicator">
-                                <div class="bar-strength">
-                                    <div class="bar-process">
-                                        <div class="bar"></div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">Address</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="label"></div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="your_avatar" class="form-label">Select avatar</label>
-                            <div class="form-file">
-                                <input type="file" name="your_avatar" id="your_avatar" class="custom-file-input" />
-                                <span id='val'></span>
-                                <span id='button'>Select File</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fieldset-footer">
-                        <span>Step 4 of 7</span>
-                    </div>
-                </fieldset>
-
-                <h3>
-                    <span class="title_text">Preview</span>
-                </h3>
-                <fieldset>
-                    <div class="fieldset-content">
-                        <div class="form-group">
-                            <label for="username" class="form-label">Username</label>
-                            <input type="text" name="username" id="username" placeholder="User Name" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Your Email" />
-                        </div>
-                        <div class="form-group form-password">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" name="password" id="password" data-indicator="pwindicator" />
-                            <div id="pwindicator">
-                                <div class="bar-strength">
-                                    <div class="bar-process">
-                                        <div class="bar"></div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" name="email" id="email" required>
+                                            <span class="label">Email</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="label"></div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="your_avatar" class="form-label">Select avatar</label>
-                            <div class="form-file">
-                                <input type="file" name="your_avatar" id="your_avatar" class="custom-file-input" />
-                                <span id='val'></span>
-                                <span id='button'>Select File</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fieldset-footer">
-                        <span>Step 5 of 7</span>
-                    </div>
-                </fieldset>
-
-                <h3>
-                    <span class="title_text">Unggah Form Testing</span>
-                </h3>
-                <fieldset>
-                    <div class="fieldset-content">
-                        <div class="form-group">
-                            <label for="username" class="form-label">Username</label>
-                            <input type="text" name="username" id="username" placeholder="User Name" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Your Email" />
-                        </div>
-                        <div class="form-group form-password">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" name="password" id="password" data-indicator="pwindicator" />
-                            <div id="pwindicator">
-                                <div class="bar-strength">
-                                    <div class="bar-process">
-                                        <div class="bar"></div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" name="email" id="email" required>
+                                            <span class="label">Alternate Email</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="label"></div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="your_avatar" class="form-label">Select avatar</label>
-                            <div class="form-file">
-                                <input type="file" name="your_avatar" id="your_avatar" class="custom-file-input" />
-                                <span id='val'></span>
-                                <span id='button'>Select File</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fieldset-footer">
-                        <span>Step 6 of 7</span>
-                    </div>
-                </fieldset>
-
-                <h3>
-                    <span class="title_text">Selesai</span>
-                </h3>
-                <fieldset>
-                    <div class="fieldset-content">
-                        <div class="form-group">
-                            <label for="username" class="form-label">Username</label>
-                            <input type="text" name="username" id="username" placeholder="User Name" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Your Email" />
-                        </div>
-                        <div class="form-group form-password">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" name="password" id="password" data-indicator="pwindicator" />
-                            <div id="pwindicator">
-                                <div class="bar-strength">
-                                    <div class="bar-process">
-                                        <div class="bar"></div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">Phone</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="label"></div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">Facsimile</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="your_avatar" class="form-label">Select avatar</label>
-                            <div class="form-file">
-                                <input type="file" name="your_avatar" id="your_avatar" class="custom-file-input" />
-                                <span id='val'></span>
-                                <span id='button'>Select File</span>
+                        </section>
+                        <!-- SECTION 2 -->
+                        <h2>
+                            <span class="step-icon"><i align="center">2</i></span>
+                            <span class="step-text">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Perusahaan</span>
+                        </h2>
+                        <section>
+                             <div class="inner">
+                                <div class="form-row">
+                                 <div class="col-form-label col-sm-2 pt-0">Companies Type : </div>
+                                      <div class="col-sm-2">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                          <div class="form-check-label" for="gridRadios1">
+                                            Agent/Distributor
+                                          </div>
+                                        </div>
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                          <div class="form-check-label" for="gridRadios2">
+                                            Manufacture
+                                          </div>
+                                        </div>
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                          <div class="form-check-label" for="gridRadios2">
+                                            User/Private
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">Name</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">Address</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" name="email" id="email" required>
+                                            <span class="label">Email</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">Phone</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">Facsimile</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="fieldset-footer">
-                        <span>Step 7 of 7</span>
-                    </div>
-                </fieldset>
+                        </section>
+                        <!-- SECTION 3 -->
+                        <h2>
+                            <span class="step-icon"><i align="center">3</i></span>
+                            <span class="step-text">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Perangkat</span>
+                        </h2>
+                        <section>
+                             <div class="inner">
+                                <div class="form-row">
+                                      <div class="col-sm-2 ml-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                          <div class="form-check-label" for="gridRadios1">
+                                            Telkom's Lab Testing
+                                          </div>
+                                        </div>
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                          <div class="form-check-label" for="gridRadios2">
+                                            Online Testing
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <br>
+                                        <div class="select"></div>
+                                          <select>
+                                            <option>--Choose STEL--</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                          </select>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">Device Name</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" name="email" id="email" required>
+                                            <span class="label">Capacity/Speed/Rate</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">Made in</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">Serial Number</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">Model/Type</span>
+                                            <span class="border"></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- SECTION 4 -->
+                        <h2>
+                            <span class="step-icon"><i align="center">4</i></span>
+                            <span class="step-text">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Lampiran</span>
+                        </h2>
+                        <section>
+                            <div class="inner">
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2 mb-5">
+                                         <div>SIUPP File</div>
+                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2 mb-4">
+                                        <div class="form-row-inner">
+                                            <input type="text" class="form-control" required>
+                                            <span class="label">No SIUPP</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2 mb-5">
+                                         <div>Date of SIUPP</div>
+                                          <input size="16" type="text" class="form-control" value="2012-06-15" readonly class="form_datetime">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2 mb-5">
+                                         <div>Quality System Certificate File</div>
+                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2 mb-5">
+                                         <div>Date of Quality System Certificate File</div>
+                                          <input size="16" type="text" class="form-control" value="2012-06-15" readonly class="form_datetime">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2 mb-5">
+                                         <div>NPWP File</div>
+                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2 mb-5">
+                                         <div>Test Reference</div>
+                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2 mb-5">
+                                         <div>Support Principals</div>
+                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2 mb-5">
+                                         <div>Another File</div>
+                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- SECTION 5 -->
+                        <h2>
+                            <span class="step-icon"><i align="center">5</i></span>
+                            <span class="step-text">Preview</span>
+                        </h2>
+                         <section>
+                            <div class="inner">
 
-            </form>
+                                <h3>Application's Data</h3>
+                                <div class="form-row table-responsive">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr class="space-row">
+                                                <th>Name</th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Address</th>
+                                                <td>Jl. Pager Gunung No. 3, Bandung, 40132</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Phone</th>
+                                                <td>08986342111</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Facsimile</th>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Email</th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <h3>Company's Data (Agent)</h3>
+                                <div class="form-row table-responsive">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr class="space-row">
+                                                <th>Device Name</th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Brand Name</th>
+                                                <td>Jl. Pager Gunung No. 3, Bandung, 40132</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Model/Type</th>
+                                                <td>08986342111</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Capacity/Speed/Rate </th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Test Referemce</th>
+                                                <td>Jl. Pager Gunung No. 3, Bandung, 40132</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Serial Number</th>
+                                                <td>08986342111</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Made in</th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                    <h3>Device's Data (Telkom's Lab Testing)</h3>
+                                <div class="form-row table-responsive">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr class="space-row">
+                                                <th>Name</th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Address</th>
+                                                <td>Jl. Pager Gunung No. 3, Bandung, 40132</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Phone</th>
+                                                <td>08986342111</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Email</th>
+                                                <td>teamsopurel@gmail.com</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                    <h3>Appendix's Document</h3>
+                                <div class="form-row table-responsive">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr class="space-row">
+                                                <th>SIUPP File</th>
+                                                <td>Batere Asam Timbal Berventilasi Statsioner</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>No. SIUPP</th>
+                                                <td>Brand</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Date of SIUPP</th>
+                                                <td>L1234</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Quality System Certificate</th>
+                                                <td>3.0</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Quality System Certificate File</th>
+                                                <td>STEL U-003</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>No. SIUPP</th>
+                                                <td>Brand</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Date of SIUPP</th>
+                                                <td>L1234</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Quality System Certificate</th>
+                                                <td>3.0</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>SIUPP File</th>
+                                                <td>Batere Asam Timbal Berventilasi Statsioner</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>No. SIUPP</th>
+                                                <td>Brand</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Date of SIUPP</th>
+                                                <td>L1234</td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <th>Quality System Certificate</th>
+                                                <td>3.0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- SECTION 1 -->
+                        <h2>
+                            <span class="step-icon"><i align="center">6</i></span>
+                            <span class="step-text">&nbsp;&nbsp;Unggah<br>Form Testing</span>
+                        </h2>
+                        <section>
+                            <div class="inner">
+                            <section>
+                            <div class="container p-5">
+                                <!-- For demo purpose -->
+                                <div class="row mb-5 text-center text-white">
+                                <div class="col-lg-10 mx-auto">
+                                    <h1 class="display-4">Upload Files </h1>
+                                </div>
+                                </div>
+                                <!-- End -->
+
+
+                                <div class="row">
+                                <div class="col-lg-5 mx-auto">
+                                    <div class="p-5 bg-white shadow rounded-lg">
+
+                                    <!-- Default bootstrap file upload-->
+
+                                    <h6 class="text-center mb-4 text-muted">
+                                        Upload your testing form here!
+                                    </h6>
+
+                                    <!-- Custom bootstrap upload file-->
+                                    <div for="fileUpload" class="file-upload btn btn-light btn-block rounded-pill shadow"><i class="fa fa-upload mr-2"></i>Browse for file ...
+                                        <input id="fileUpload" type="file">
+                                    </div>
+                                    <button class="btn btn-danger mt-3 mr-1" style="width:165px">Upload Now</button>
+                                    <button class="btn btn-light mt-3" style="width:165px">Upload Later</button>
+                                    <!-- End -->
+
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </section>
+
+                            </div>
+                        </section>
+                        <!-- SECTION 1 -->
+                        <h2>
+                            <span class="step-icon"><i align="center">7</i></span>
+                            <span class="step-text">&nbsp;&nbsp;Selesai</span>
+                        </h2>
+                        <section>
+                            <div class="inner">
+                                <h3 style="text-align:center; color:#8D8D8D;" class="mt-3">Thank you, your registration will be processed further</h3>
+                            </div>
+                        </section>
+                    </div>
+                </form>
+            </div>
         </div>
-
     </div>
 
 @stop
