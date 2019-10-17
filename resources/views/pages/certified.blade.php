@@ -15,7 +15,7 @@
 					<br>
 					<table class="table table-striped table-bordered">
 						<thead>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<th>No</th>
 							<th>Company Name</th>
 							<th>Device Name</th>
@@ -29,7 +29,7 @@
 						</tr>
 						</thead>
 						<tbody>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>1</td>
 							<td>PT ALPHA CIKUPA MAKMUR</td>
 							<td>Pipa HDPE untuk Kabel Serat Optik</td>
@@ -41,7 +41,7 @@
 							<td>2019-10-02</td>
 							<td>2022-10-02</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>2</td>
 							<td>PT. HUAWEI TECH INVESTMENT</td>
 							<td>Switch Ethernet (L2 Switch)	</td>
@@ -53,7 +53,7 @@
 							<td>2019-10-02</td>
 							<td>2022-10-02</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>3</td>
 							<td>PT MAJU BERSAMA GEMILANG</td>
 							<td>Kabel Serat Optik Single Mode Berkonstruksi Loose Tube untuk Aplikasi Duct</td>
@@ -65,7 +65,7 @@
 							<td>2019-10-02</td>
 							<td>2022-10-02</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>4</td>
 							<td>PT. LENTERA ANDALAN KOMUNIKASI</td>
 							<td>Optical Distribution Point (ODP) dengan Solid Splitter</td>
@@ -77,7 +77,7 @@
 							<td>2019-10-02</td>
 							<td>2022-10-02</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>5</td>
 							<td>PT. HUAWEI TECH INVESTMENT</td>
 							<td>Switch Ethernet (L2 Switch)	</td>
@@ -89,7 +89,7 @@
 							<td>2019-10-02</td>
 							<td>2022-10-02</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>6</td>
 							<td>PT ALPHA CIKUPA MAKMUR</td>
 							<td>Pipa HDPE untuk Kabel Serat Optik</td>
@@ -101,7 +101,7 @@
 							<td>2019-10-02</td>
 							<td>2022-10-02</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>7</td>
 							<td>PT. HUAWEI TECH INVESTMENT</td>
 							<td>Switch Ethernet (L2 Switch)	</td>
@@ -113,7 +113,7 @@
 							<td>2019-10-02</td>
 							<td>2022-10-02</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>8</td>
 							<td>PT MAJU BERSAMA GEMILANG</td>
 							<td>Kabel Serat Optik Single Mode Berkonstruksi Loose Tube untuk Aplikasi Duct</td>
@@ -125,7 +125,7 @@
 							<td>2019-10-02</td>
 							<td>2022-10-02</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>9</td>
 							<td>PT. LENTERA ANDALAN KOMUNIKASI</td>
 							<td>Optical Distribution Point (ODP) dengan Solid Splitter</td>
@@ -137,7 +137,7 @@
 							<td>2019-10-02</td>
 							<td>2022-10-02</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>10</td>
 							<td>PT. HUAWEI TECH INVESTMENT</td>
 							<td>Switch Ethernet (L2 Switch)	</td>
