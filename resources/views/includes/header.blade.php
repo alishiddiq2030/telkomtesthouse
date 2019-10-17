@@ -84,7 +84,7 @@
                             <ul class="profile_selection" style="text-align:left;">
                                 <li><a href="stel"><i aria-hidden="true"></i>STEL</a></li>
                                 <br>
-                                <li><a href="sstel"><i aria-hidden="true"></i>S-STEL</a></li>
+                                <li><a href="sstel"><i aria-hidden="true"></i>S-TSEL</a></li>
                             </ul>
                         </li>
                         <li class="profile">

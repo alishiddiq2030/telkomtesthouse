@@ -15,7 +15,7 @@
 					<br>
 					<table class="table table-striped table-bordered">
 						<thead>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<th>No</th>
 							<th>Device Name</th>
 							<th>STEL</th>
@@ -27,7 +27,7 @@
 						</tr>
 						</thead>
 						<tbody>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>1</td>
 							<td>Broadband Remote Access Server (BRAS)</td>
 							<td>STEL D-010-2005 Ver.1.0</td>
@@ -37,7 +37,7 @@
 							<td>37,000,000</td>
 							<td>0</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>2</td>
 							<td>Electromagnetic Compatibility (EMC) - Emmision .</td>
 							<td>CISPR 32</td>
@@ -47,7 +47,7 @@
 							<td>0</td>
 							<td>12,000,000</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>3</td>
 							<td>Electromagnetic Compatibility (EMC) - Emmision & Immunity .</td>
 							<td>CISPR 32 || CISPR 35 </td>
@@ -57,7 +57,7 @@
 							<td>0</td>
 							<td>20,000,000</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>4</td>
 							<td>Electromagnetic Compatility (EMC) - Immunity .</td>
 							<td>CISPR 35</td>
@@ -67,7 +67,7 @@
 							<td>0</td>
 							<td>12,000,000</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>5</td>
 							<td>Facsimile</td>
 							<td>SNI 04-3508-1994</td>
@@ -77,7 +77,7 @@
 							<td>0</td>
 							<td>8,000,000</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>6</td>
 							<td>Broadband Remote Access Server (BRAS)</td>
 							<td>STEL D-010-2005 Ver.1.0</td>
@@ -87,7 +87,7 @@
 							<td>37,000,000</td>
 							<td>0</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>7</td>
 							<td>Electromagnetic Compatibility (EMC) - Emmision .</td>
 							<td>CISPR 32</td>
@@ -97,7 +97,7 @@
 							<td>0</td>
 							<td>12,000,000</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>8</td>
 							<td>Electromagnetic Compatibility (EMC) - Emmision & Immunity .</td>
 							<td>CISPR 32 || CISPR 35 </td>
@@ -107,7 +107,7 @@
 							<td>0</td>
 							<td>20,000,000</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>9</td>
 							<td>Electromagnetic Compatility (EMC) - Immunity .</td>
 							<td>CISPR 35</td>
@@ -117,7 +117,7 @@
 							<td>0</td>
 							<td>12,000,000</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>10</td>
 							<td>Facsimile</td>
 							<td>SNI 04-3508-1994</td>
