@@ -34,8 +34,8 @@
             <div class="col-lg-3 mt-3">
                 <b style="color:#676765">LINK</b>
                 <div class="mt-2">
-                    <a href="#" class="fa fa-external-link mr-1"></a>
-                    <a href="#">FAQ</a><br>
+                    <a href="faq" class="fa fa-external-link mr-1"></a>
+                    <a href="faq">FAQ</a><br>
                     <a href="#" class="fa fa-external-link mr-1"></a>
                     <a href="#">Syarat dan Ketentuan Umum</a><br>
                     <a href="#" class="fa fa-external-link mr-1"></a>

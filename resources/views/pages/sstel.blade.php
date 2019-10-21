@@ -15,7 +15,7 @@
 					<br>
 					<table class="table table-striped table-bordered">
 						<thead>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<th>No</th>
 							<th>Document Name</th>
 							<th>Document Code</th>
@@ -25,7 +25,7 @@
 						</tr>
 						</thead>
 						<tbody>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>1</td>
 							<td>Spesifikasi Telekomunikasi Diesel Genset (Stationer) Kapasitas >1000 s.d 2500 KVA</td>
 							<td>S-TSEL E-005-2011 Ver.1.0</td>
@@ -33,7 +33,7 @@
 							<td>1.0</td>
 							<td>Lab. Energi</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>2</td>
 							<td>Kabel Koaksial RF (Kabel Feeder)</td>
 							<td>S-TSEL E-005-2011 Ver.1.0</td>
@@ -41,7 +41,7 @@
 							<td>1.0</td>
 							<td>Lab. Kabel</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>3</td>
 							<td>Free Space Optic</td>
 							<td>S-TSEL-B-003-2013</td>
@@ -49,7 +49,7 @@
 							<td>1.0</td>
 							<td>Lab. Transmisi</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>4</td>
 							<td>Spesifikasi Telekomunikasi Optical Cord Bundle</td>
 							<td>STEL L-074-2019 Ver.1.2</td>
@@ -57,7 +57,7 @@
 							<td>1</td>
 							<td>Lab. Kabel</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>5</td>
 							<td>Kabel Serat Optik Hybrid</td>
 							<td>S-TSEL F-016-2015 Ver.1.0</td>
@@ -65,7 +65,7 @@
 							<td>1.0</td>
 							<td>Lab. Kabel</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>6</td>
 							<td>Diesel Genset (Stationer) Kapasitas 1000 s.d. 2500 KVA</td>
 							<td>ES-TSEL E-005-2012 Ver.1.0</td>

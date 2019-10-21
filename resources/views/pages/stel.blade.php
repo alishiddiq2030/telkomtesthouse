@@ -15,7 +15,7 @@
 					<br>
 					<table class="table table-striped table-bordered">
 						<thead>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<th>No</th>
 							<th>Document Name</th>
 							<th>Document Code</th>
@@ -25,7 +25,7 @@
 						</tr>
 						</thead>
 						<tbody>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>1</td>
 							<td>Spesifikasi Telekomunikasi Perangkat Splice on Connector (SOC)</td>
 							<td>STEL L-066-2015 Ver.1.0</td>
@@ -33,7 +33,7 @@
 							<td>1</td>
 							<td>Lab. Kabel</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>2</td>
 							<td>Alat & Perangkat Radio yang Digunakan untuk Komunikasi Radio dengan Daya Pancar di atas 10 MWatt dengan alokasi frekuensi sesuai peruntukannya</td>
 							<td>Perdirjen No.088/Dirjen/1999</td>
@@ -41,7 +41,7 @@
 							<td>1.0</td>
 							<td>Lab. Transmisi</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>3</td>
 							<td>Antenna</td>
 							<td>Perdirjen No.042/Dirjen/2006</td>
@@ -49,7 +49,7 @@
 							<td>-</td>
 							<td>Lab. Transmisi</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>4</td>
 							<td>Bluetooth</td>
 							<td>Permen Kominfo No.01 Tahun 2019 II ETSI en 300328</td>
@@ -57,7 +57,7 @@
 							<td>-</td>
 							<td>Lab. Transmisi</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>5</td>
 							<td>Dedicated Short Range Communication (DSRC)</td>
 							<td>Permen Kominfo No.01 Tahun 2019 II ETSI en 3003284</td>
@@ -65,7 +65,7 @@
 							<td>-</td>
 							<td>Lab. Transmisi</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>6</td>
 							<td>Electromagnetic compatibility and Radio spectrum Matters (ERM)</td>
 							<td>ETSI EN 300 328 v1. 8.10</td>
@@ -73,7 +73,7 @@
 							<td>-</td>
 							<td>Lab. Transmisi</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>7</td>
 							<td>EMC - Emmision Perangkat CPE</td>
 							<td>CISPR 32</td>
@@ -81,7 +81,7 @@
 							<td>1.0</td>
 							<td>Lab. CPE</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>8</td>
 							<td>EMC - Emmision Perangkat Transmisi</td>
 							<td>CISPR 32</td>
@@ -89,7 +89,7 @@
 							<td>1.0</td>
 							<td>Lab. Transmisi</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>9</td>
 							<td>EMC - Immunity Perangkat CPE</td>
 							<td>CISPR 32</td>
@@ -97,7 +97,7 @@
 							<td>1.0</td>
 							<td>Lab. CPE</td>
 						</tr>
-						<tr align="center">
+						<tr align="center" style="font-size:12px">
 							<td>10</td>
 							<td>EMC - Emmision Perangkat Transmisi</td>
 							<td>CISPR 32</td>
