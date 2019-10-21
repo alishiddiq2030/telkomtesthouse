@@ -258,13 +258,11 @@
                         </h2>
                         <section>
                             <div class="inner">
+  
                                 <div class="form-row">
-
-                                    <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
-                                         <label>SIUPP File</label>
+                                    <div class="form-holder form-holder-2 mb-5">
+                                         <div>SIUPP File</div>
                                           <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                                      </label>
                                     </div>
                                 </div>
                                 <div class="form-row">
