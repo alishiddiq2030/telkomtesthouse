@@ -85,6 +85,12 @@
                                 <li><a href="stel"><i aria-hidden="true"></i>STEL</a></li>
                                 <br>
                                 <li><a href="sstel"><i aria-hidden="true"></i>S-TSEL</a></li>
+                                <br>
+                                <li><a href="sstel"><i aria-hidden="true"></i>PERDIRJEN</a></li>
+                                <br>
+                                <li><a href="sstel"><i aria-hidden="true"></i>PERMENKOMINFO</a></li>
+                                <br>
+                                <li><a href="sstel"><i aria-hidden="true"></i>ADDEST</a></li>
                             </ul>
                         </li>
                         <li class="profile">
