@@ -169,7 +169,7 @@
                                 </div>
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
-                                        <label class="form-row-inner">
+                                        <label class="inner-choose">
                                          <label class="select">Test Reference</label>
                                           <select>
                                             <option>Choose STEL</option>
@@ -236,8 +236,10 @@
                             <div class="inner">
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
+                                        <label class="form-row-inner">
                                          <label>SIUPP File</label>
                                           <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                      </label>
                                     </div>
                                 </div>
                                 <div class="form-row">
@@ -299,7 +301,7 @@
                             <span class="step-text">Preview</span>
                         </h2>
                          <section>
-                            <div class="inner">
+                            <div class="inner-prev">
 
                                 <h3 class="form-title">Application's Data</h3>
                                 <div class="form-row table-responsive">

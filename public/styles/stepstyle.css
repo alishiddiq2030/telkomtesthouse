@@ -433,6 +433,20 @@
 	font-size: 16px;
 	font-weight: 400;
 }
+
+.inner-prev{
+	/*display: flex;*/
+    margin: 0 200px;
+    position: relative;
+
+}
+.inner-choose{
+	/*display: flex;*/
+    /*margin: 0 5px;*/
+    position: relative;
+    width: 28.6%;
+
+}
 .actions ul {
     list-style: none;
     padding-left: 0;
