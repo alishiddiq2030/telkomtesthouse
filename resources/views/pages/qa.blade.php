@@ -498,11 +498,11 @@
                         <section>
                             <div class="inner">
                             <section>
-                            <div class="container p-5">
+                            <div class="container">
                                 <!-- For demo purpose -->
-                                <div class="row mb-5 text-center text-white">
+                                <div class="row text-center text-white">
                                 <div class="col-lg-10 mx-auto">
-                                    <h1 class="display-4">Upload Files </h1>
+                                    <h3 class="display-4">Upload Files </h3>
                                 </div>
                                 </div>
                                 <!-- End -->
@@ -510,7 +510,7 @@
 
                                 <div class="row">
                                 <div class="col-lg-5 mx-auto">
-                                    <div class="p-5 bg-white shadow rounded-lg">
+                                    <div class="p-3 bg-white shadow rounded-lg">
 
                                     <!-- Default bootstrap file upload-->
 
@@ -522,8 +522,8 @@
                                     <div for="fileUpload" class="file-upload btn btn-light btn-block rounded-pill shadow"><i class="fa fa-upload mr-2"></i>Browse for file ...
                                         <input id="fileUpload" type="file">
                                     </div>
-                                    <button class="btn btn-danger mt-3 mr-1" style="width:165px">Upload Now</button>
-                                    <button class="btn btn-light mt-3" style="width:165px">Upload Later</button>
+                                    <button class="btn btn-danger mt-3 mr-2" style="width:200px">Upload Now</button>
+                                    <button class="btn btn-light mt-3" style="width:200px">Upload Later</button>
                                     <!-- End -->
 
                                     </div>
