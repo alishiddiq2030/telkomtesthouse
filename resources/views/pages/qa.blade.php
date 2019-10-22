@@ -6,74 +6,80 @@
         <div class="wizard-v3-content">
             <div class="wizard-form">
                 <div class="wizard-header">
-                    <h3 class="heading mt-5">QUALITY ASSURANCE TESTING PROCESS</h3>
+                    <h4 class="heading mt-2">QUALITY ASSURANCE TESTING PROCESS</h4>
                 </div>
                 <form class="form-register" action="#" method="post">
                     <div id="form-total">
                         <!-- SECTION 1 -->
                         <h2>
                             <span class="step-icon"><i align="center">1</i></span>
-                            <span class="step-text">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Registrasi</span>
+                            <span class="step-text"><p style="font-size:11px">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Registrasi</p></span>
                         </h2>
                         <section>
-                            <div class="inner">
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">Name</span>
-                                            <span class="border"></span>
-                                            <br>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="inner col-md-6 ">
+                                        <div class="form-row">
+                                            <div class="form-holder form-holder-2">
+                                                <div class="form-row-inner">
+                                                    <input type="text" class="form-control" required>
+                                                    <span class="label">Name</span>
+                                                    <span class="border"></span>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-holder form-holder-2">
+                                                <div class="form-row-inner">
+                                                    <input type="text" class="form-control" required>
+                                                    <span class="label">Email</span>
+                                                    <span class="border"></span>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-holder form-holder-2">
+                                                <div class="form-row-inner">
+                                                    <input type="text" class="form-control" required>
+                                                    <span class="label">Phone</span>
+                                                    <span class="border"></span>
+                                                    <br>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">Address</span>
-                                            <span class="border"></span>
-                                            <br>
+                                    <div class="inner col-md-6">
+                                        <div class="form-row">
+                                            <div class="form-holder form-holder-2">
+                                                <div class="form-row-inner">
+                                                    <input type="text" class="form-control" required>
+                                                    <span class="label">Address</span>
+                                                    <span class="border"></span>
+                                                    <br>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" name="email" id="email" required>
-                                            <span class="label">Email</span>
-                                            <span class="border"></span>
-                                            <br>
+                                        <div class="form-row">
+                                            <div class="form-holder form-holder-2">
+                                                <div class="form-row-inner">
+                                                    <input type="text" class="form-control" required>
+                                                    <span class="label">Alternate Email</span>
+                                                    <span class="border"></span>
+                                                    <br>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" name="email" id="email" required>
-                                            <span class="label">Alternate Email</span>
-                                            <span class="border"></span>
-                                            <br>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">Phone</span>
-                                            <span class="border"></span>
-                                            <br>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">Facsimile</span>
-                                            <span class="border"></span>
-                                            <br>
+                                        <div class="form-row">
+                                            <div class="form-holder form-holder-2">
+                                                <div class="form-row-inner">
+                                                    <input type="text" class="form-control" required>
+                                                    <span class="label">Facsimile</span>
+                                                    <span class="border"></span>
+                                                    <br>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -82,245 +88,262 @@
                         <!-- SECTION 2 -->
                         <h2>
                             <span class="step-icon"><i align="center">2</i></span>
-                            <span class="step-text">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Perusahaan</span>
+                            <span class="step-text"><p style="font-size:11px">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Perusahaan</p></span>
                         </h2>
                         <section>
-                             <div class="inner">
-                                <div class="form-row">
-                                 <div class="col-form-label col-sm-2 pt-0">Companies Type : </div>
-                                      <div class="col-sm-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-row col-md-12 mb-4">
+                                    <div class="col-form-label col-sm-2 pt-0">Companies Type : </div>
+                                    <div class="col-sm-2">
                                         <div class="form-check">
-                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                          <div class="form-check-label" for="gridRadios1">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                        <div class="form-check-label" for="gridRadios1">
                                             Agent/Distributor
-                                          </div>
+                                        </div>
                                         </div>
                                         <div class="form-check">
-                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                          <div class="form-check-label" for="gridRadios2">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        <div class="form-check-label" for="gridRadios2">
                                             Manufacture
-                                          </div>
+                                        </div>
                                         </div>
                                         <div class="form-check">
-                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                          <div class="form-check-label" for="gridRadios2">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        <div class="form-check-label" for="gridRadios2">
                                             User/Private
-                                          </div>
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">Name</span>
-                                            <span class="border"></span>
-                                            <br>
+                                <div class="inner col-md-6">
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2">
+                                            <div class="form-row-inner">
+                                                <input type="text" class="form-control" required>
+                                                <span class="label">Name</span>
+                                                <span class="border"></span>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2">
+                                            <div class="form-row-inner">
+                                                <input type="text" class="form-control" name="email" id="email" required>
+                                                <span class="label">Email</span>
+                                                <span class="border"></span>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2">
+                                            <div class="form-row-inner">
+                                                <input type="text" class="form-control" required>
+                                                <span class="label">Facsimile</span>
+                                                <span class="border"></span>
+                                                <br>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">Address</span>
-                                            <span class="border"></span>
-                                            <br>
+                                <div class="inner col-md-6">                                
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2">
+                                            <div class="form-row-inner">
+                                                <input type="text" class="form-control" required>
+                                                <span class="label">Address</span>
+                                                <span class="border"></span>
+                                                <br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" name="email" id="email" required>
-                                            <span class="label">Email</span>
-                                            <span class="border"></span>
-                                            <br>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">Phone</span>
-                                            <span class="border"></span>
-                                            <br>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">Facsimile</span>
-                                            <span class="border"></span>
-                                            <br>
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2">
+                                            <div class="form-row-inner">
+                                                <input type="text" class="form-control" required>
+                                                <span class="label">Phone</span>
+                                                <span class="border"></span>
+                                                <br>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                         </section>
                         <!-- SECTION 3 -->
                         <h2>
                             <span class="step-icon"><i align="center">3</i></span>
-                            <span class="step-text">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Perangkat</span>
+                            <span class="step-text"><p style="font-size:11px">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Perangkat</p></span>
                         </h2>
                         <section>
-                             <div class="inner">
-                                <div class="form-row">
-                                      <div class="col-sm-2 ml-4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-row col-md-12 mb-4">
+                                    <div class="col-sm-2 ml-4">
                                         <div class="form-check">
-                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                          <div class="form-check-label" for="gridRadios1">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                        <div class="form-check-label" for="gridRadios1">
                                             Telkom's Lab Testing
-                                          </div>
+                                        </div>
                                         </div>
                                         <div class="form-check">
-                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                          <div class="form-check-label" for="gridRadios2">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        <div class="form-check-label" for="gridRadios2">
                                             Online Testing
-                                          </div>
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-
-                                        <label class="inner-choose">
-                                         <label class="select">Test Reference</label>
-
-                                          <select>
-                                            <option>--Choose STEL--</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                          </select>
+                                <div class="inner col-md-6">
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2">
+                                            <label class="inner-choose">
+                                            <label class="select">Test Reference</label>
+                                            <select>
+                                                <option>--Choose STEL--</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
-                                <br>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">Device Name</span>
-                                            <span class="border"></span>
-                                            <br>
+                                    <br>
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2">
+                                            <div class="form-row-inner">
+                                                <input type="text" class="form-control" name="email" id="email" required>
+                                                <span class="label">Capacity/Speed/Rate</span>
+                                                <span class="border"></span>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2">
+                                            <div class="form-row-inner">
+                                                <input type="text" class="form-control" required>
+                                                <span class="label">Serial Number</span>
+                                                <span class="border"></span>
+                                                <br>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" name="email" id="email" required>
-                                            <span class="label">Capacity/Speed/Rate</span>
-                                            <span class="border"></span>
-                                            <br>
+                                <div class="inner col-md-6 mt-5">
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2">
+                                            <div class="form-row-inner">
+                                                <input type="text" class="form-control" required>
+                                                <span class="label">Device Name</span>
+                                                <span class="border"></span>
+                                                <br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">Made in</span>
-                                            <span class="border"></span>
-                                            <br>
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2">
+                                            <div class="form-row-inner">
+                                                <input type="text" class="form-control" required>
+                                                <span class="label">Made in</span>
+                                                <span class="border"></span>
+                                                <br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">Serial Number</span>
-                                            <span class="border"></span>
-                                            <br>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">Model/Type</span>
-                                            <span class="border"></span>
-                                            <br>
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2">
+                                            <div class="form-row-inner">
+                                                <input type="text" class="form-control" required>
+                                                <span class="label">Model/Type</span>
+                                                <span class="border"></span>
+                                                <br>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                         </section>
                         <!-- SECTION 4 -->
                         <h2>
                             <span class="step-icon"><i align="center">4</i></span>
-                            <span class="step-text">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Lampiran</span>
+                            <span class="step-text"><p style="font-size:11px">&nbsp;&nbsp;&nbsp;&nbsp;Data<br>Lampiran</p></span>
                         </h2>
                         <section>
-                            <div class="inner">
-  
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2 mb-5">
-                                         <div>SIUPP File</div>
-                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="inner col-md-6">
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2 mb-5">
+                                            <div>SIUPP File</div>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2 mb-4">
-                                        <div class="form-row-inner">
-                                            <input type="text" class="form-control" required>
-                                            <span class="label">No SIUPP</span>
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2 mb-5">
+                                            <div>Date of SIUPP</div>
+                                            <input size="16" type="text" class="form-control" value="2012-06-15" readonly class="form_datetime">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2 mb-5">
+                                            <div>Date of Quality System Certificate File</div>
+                                            <input size="16" type="text" class="form-control" value="2012-06-15" readonly class="form_datetime">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2 mb-5">
+                                            <div>Test Reference</div>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2 mb-5">
+                                            <div>Another File</div>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2 mb-5">
-                                         <div>Date of SIUPP</div>
-                                          <input size="16" type="text" class="form-control" value="2012-06-15" readonly class="form_datetime">
+                                <br>
+                                <div class="inner col-md-6 mt-5">
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2 mb-4">
+                                            <div class="form-row-inner">
+                                                <input type="text" class="form-control" required>
+                                                <span class="label">No SIUPP</span>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2 mb-5">
-                                         <div>Quality System Certificate File</div>
-                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    <br>
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2 mb-5">
+                                            <div>Quality System Certificate File</div>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2 mb-5">
-                                         <div>Date of Quality System Certificate File</div>
-                                          <input size="16" type="text" class="form-control" value="2012-06-15" readonly class="form_datetime">
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2 mb-5">
+                                            <div>NPWP File</div>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2 mb-5">
-                                         <div>NPWP File</div>
-                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2 mb-5">
-                                         <div>Test Reference</div>
-                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2 mb-5">
-                                         <div>Support Principals</div>
-                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-holder form-holder-2 mb-5">
-                                         <div>Another File</div>
-                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    <div class="form-row">
+                                        <div class="form-holder form-holder-2 mb-5">
+                                            <div>Support Principals</div>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                         </section>
                         <!-- SECTION 5 -->
                         <h2>
                             <span class="step-icon"><i align="center">5</i></span>
-                            <span class="step-text">Preview</span>
+                            <span class="step-text"><p style="font-size:11px">Preview</p></span>
                         </h2>
                          <section>
                             <div class="inner-prev">
@@ -470,7 +493,7 @@
                         <!-- SECTION 1 -->
                         <h2>
                             <span class="step-icon"><i align="center">6</i></span>
-                            <span class="step-text">&nbsp;&nbsp;Unggah<br>Form Testing</span>
+                            <span class="step-text"><p style="font-size:11px">&nbsp;&nbsp;Unggah<br>Form Testing</p></span>
                         </h2>
                         <section>
                             <div class="inner">
@@ -514,7 +537,7 @@
                         <!-- SECTION 1 -->
                         <h2>
                             <span class="step-icon"><i align="center">7</i></span>
-                            <span class="step-text">&nbsp;&nbsp;Selesai</span>
+                            <span class="step-text"><p style="font-size:11px">&nbsp;&nbsp;Selesai</p></span>
                         </h2>
                         <section>
                             <div class="inner">
