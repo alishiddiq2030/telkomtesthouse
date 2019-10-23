@@ -32,12 +32,12 @@
                        <div class="row">
                           <div class="col-sm">
                                 <label for="first_name"><h5>First name</h5></label>
-                                <input type="text" class="form-control" name="first_name" id="first_name" placeholder="first name" title="enter your first name if any.">
+                                <input type="text" class="form-control" placeholder="first name" required>
                             </div>
                             
                             <div class="col-sm">
                               <label for="last_name"><h5>Last name</h5></label>
-                                <input type="text" class="form-control" name="last_name" id="last_name" placeholder="last name" title="enter your last name if any.">
+                                <input type="text" class="form-control" placeholder="surname" required>
                             </div>
                           </div>
                         </div>
@@ -46,12 +46,12 @@
                        <div class="row">
                           <div class="col-sm">
                               <label for="phone"><h5>Address</h5></label>
-                              <input type="text" class="form-control" name="phone" id="phone" placeholder="enter address" title="enter your address if any.">
+                              <input type="text" class="form-control" placeholder="somewhere" required>
                           </div>
                             
                             <div class="col-sm">
                                <label for="mobile"><h5>Phone Number</h5></label>
-                              <input type="text" class="form-control" name="mobile" id="mobile" placeholder="enter mobile number" title="enter your mobile number if any.">
+                              <input type="text" class="form-control" placeholder="+62" required>
                          </div>
                           </div>
                         </div>
@@ -60,12 +60,12 @@
                        <div class="row">
                           <div class="col-sm">
                               <label for="email"><h5>Email</h5></label>
-                              <input type="email" class="form-control" name="email" id="email" placeholder="you@email.com" title="enter your email.">
+                              <input type="email" class="form-control" placeholder="you@email.com" required>
                           </div>
                             
                             <div class="col-sm">
-                               <label for="email"><h5>Alternate Email</h5></label>
-                              <input type="email" class="form-control" id="location" placeholder="somewhere" title="enter a location">
+                              <label for="email"><h5>Alternate Email</h5></label>
+                              <input type="email" class="form-control" placeholder="another@email.com">
                          </div>
                           </div>
                         </div>
@@ -73,13 +73,13 @@
                          <div class="form-group">
                        <div class="row">
                           <div class="col-sm">
-                             <label for="email"><h5>Facsimile</h5></label>
-                              <input type="email" class="form-control" id="location" placeholder="somewhere" title="enter a location">
+                             <label for="fax"><h5>Facsimile</h5></label>
+                              <input type="text" class="form-control" placeholder="fax" required>
                           </div>
                             
                             <div class="col-sm">
-                              <label for="email"><h5>Company</h5></label>
-                              <input type="email" class="form-control" id="location" placeholder="somewhere" title="enter a location">
+                              <label for="company"><h5>Company</h5></label>
+                              <input type="text" class="form-control" placeholder="company name" required>
                          </div>
                           </div>
                         </div>
@@ -88,12 +88,12 @@
                        <div class="row">
                           <div class="col-sm">
                              <label for="password"><h5>Password</h5></label>
-                              <input type="password" class="form-control" name="password" id="password" placeholder="password" title="enter your password.">
+                              <input type="password" class="form-control" placeholder="password" required>
                           </div>
                             
                             <div class="col-sm">
                              <label for="password2"><h5>Confirm Password</h5></label>
-                              <input type="password" class="form-control" name="password2" id="password2" placeholder="password2" title="enter your password2.">
+                              <input type="password" class="form-control" placeholder="confirm password" required">
                          </div>
                           </div>
                         </div>
@@ -111,10 +111,9 @@
                       <div class="form-group">
                           
                           <div class="col-sm">
-                              <label for="first_name"><h5>Select Company</h5></label> 
-                                <select class="form-control" name="last_name" id="last_name">
-                                  <option></option>
-                                  <option></option>
+                              <label for="company"><h5>Select Company</h5></label> 
+                                <select class="form-control">
+                                  @include('includes.dataset')
                                 </select>
                                 <br>
                                 <label for="first_name"><h6>*if your company not in list, please tell User Relations DDS 022-457115. Or Registry your company with fill this form bellow</h6></label> 
@@ -127,6 +126,8 @@
                                 <button class="btn btn-primary pull-right mb-3" type="submit"></i> Register</button>
                             </div>
                       </div>
+
+                      <!-- @include('includes.new_form') -->
                 </form>
               </div>
             

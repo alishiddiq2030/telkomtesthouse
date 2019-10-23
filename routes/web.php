@@ -105,3 +105,7 @@ Route::get('/example', function () {
 Route::get('/faq', function () {
     return view('pages.faq');
 });
+
+Route::get('/x', function () {
+    return view('includes.new_form');
+});

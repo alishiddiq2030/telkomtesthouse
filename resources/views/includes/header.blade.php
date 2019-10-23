@@ -25,15 +25,27 @@
                                 <li><a href="#">Indonesia</a></li>
                             </ul>
                         </li>
-                        <li class="account">
+                        <!-- <li class="account">
                             <a href="#">
                                 My Account
                                 <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="account_selection">
-                                <li><a href="login"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-                                <li><a href="register"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+                                <li><a href="login"><i class="fa fa-user" aria-hidden="true"></i>Edit Profile</a></li>
+                                <li><a href="register"><i class="fa fa-sign-out" aria-hidden="true"></i>Log Out</a></li>
                             </ul>
+                        </li> -->
+                        <li class="account">
+                            <a href="register">
+                                <i class="fa fa-user-plus" aria-hidden="false"></i>
+                                &ensp;Sign Up
+                            </a>
+                        </li>
+                        <li class="account">
+                            <a href="login">
+                                <i class="fa fa-sign-in" aria-hidden="false"></i>
+                                &ensp;Login
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -84,16 +96,16 @@
                             <ul class="profile_selection" style="text-align:left;">
                                 <li><a href="stel"><i aria-hidden="true"></i>STEL</a></li>
                                 <br>
-                                <li><a href="sstel"><i aria-hidden="true"></i>S-TSEL</a></li>
+                                <li><a href="sstel"><i aria-hidden="true"></i>S-TSEL&emsp;</a></li>
                                 <br>
-                                <li><a href="sstel"><i aria-hidden="true"></i>PERDIRJEN</a></li>
+                                <li><a href="#"><i aria-hidden="true"></i>PERDIRJEN</a></li>
                                 <br>
-                                <li><a href="sstel"><i aria-hidden="true"></i>PERMENKOMINFO</a></li>
+                                <li><a href="#"><i aria-hidden="true"></i>PERMENKOMINFO</a></li>
                                 <br>
-                                <li><a href="sstel"><i aria-hidden="true"></i>ADDEST</a></li>
+                                <li><a href="#"><i aria-hidden="true"></i>ADDEST</a></li>
                             </ul>
                         </li>
-                        <li class="profile">
+                        <!-- <li class="profile">
                             <a href="#">
                                 Testing
                                 <i class="fa fa-angle-down"></i>
@@ -104,9 +116,9 @@
                                 <li><a href="purchase"><i aria-hidden="true"></i>PURCHASE HISTORY</a></li>
                                 <li><a href="buy_stel"><i aria-hidden="true"></i>BUY STEL</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
-                    <ul class="navbar_user">
+                    <!-- <ul class="navbar_user">
                         <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
                         <li class="checkout">
@@ -115,7 +127,11 @@
                                 <span id="checkout_items" class="checkout_items">2</span>
                             </a>
                         </li>
-                    </ul>
+                    </ul> -->
+                    <!-- <ul class="navbar_log">
+                        <li><a href="register"><i class="fa fa-user-plus" aria-hidden="true"></i>&ensp;SIGN UP</a></li>
+                        <li><a href="login"><i class="fa fa-sign-in" aria-hidden="true"></i>&ensp;LOGIN</a></li>
+                    </ul> -->
                     <div class="hamburger_container">
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </div>

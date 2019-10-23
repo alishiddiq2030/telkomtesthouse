@@ -372,8 +372,8 @@ section
 	display: inline-block;
 	position: relative;
 	min-width: 50px;
-	border-right: solid 1px #ffffff;
-	padding-right: 20px;
+	/* border-right: solid 1px #ffffff; */
+	padding-right: 10px;
 	padding-left: 20px;
 	text-align: center;
 	vertical-align: middle;
@@ -453,10 +453,12 @@ section
 	display: inline-block;
 	position: relative;
 	min-width: 50px;
-	padding-left: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-align: center;
 	vertical-align: middle;
 	background: #e60000;
+	border-left: solid 1px #ffffff;
 }
 .account > a
 {
@@ -469,7 +471,7 @@ section
 }
 .account > a > i
 {
-	margin-left: 8px;
+	/* margin-left: 8px; */
 }
 .account:hover .account_selection
 {
@@ -541,22 +543,23 @@ section
 {
 	width: auto;
 	height: 100px;
-	float: right;
-	padding-left: 0px;
+	padding-left: 150px;
 	padding-right: 0px;
 }
 .navbar_menu li
 {
+	float: left;
 	display: inline-block;
 }
 .navbar_menu li a
 {
+	float: left;
 	display: block;
 	color: #1e1e27;
 	font-size: 13px;
 	font-weight: 500;
 	text-transform: uppercase;
-	padding: 20px;
+	padding: 25px;
 	-webkit-transition: color 0.3s ease;
 	-moz-transition: color 0.3s ease;
 	-ms-transition: color 0.3s ease;
@@ -565,11 +568,13 @@ section
 }
 .navbar_menu li a:hover
 {
+	float: left;	
 	color: #b5aec4;
 }
 .navbar_user
 {
 	margin-left: 37px;
+	float: right;
 }
 .navbar_user li
 {
@@ -600,6 +605,34 @@ section
 {
 	color: #b5aec4;
 }
+
+.navbar_log
+{
+	margin-left: 37px;
+	float: right;
+}
+.navbar_log li
+{
+	display: inline-block;
+	text-align: center;
+}
+
+.navbar_log li a
+{
+	color: #1e1e27;
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+
+.navbar_log li a:hover
+{
+	color: #b5aec4;
+}
+
+
 .checkout a
 {
 	background: #eceff6;
@@ -913,6 +946,7 @@ section
 .main_slider_content
 {
 	width: 60%;
+	margin-bottom: 20px;
 }
 .main_slider_content h6
 {
@@ -944,7 +978,7 @@ section
 	align-items: center;
 	width: auto;
 	height: 40px;
-	background: #fe4c50;
+	background: #e60000;
 	border-radius: 3px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -952,6 +986,49 @@ section
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
+.white_button{
+	display: -webkit-inline-box;
+	display: -moz-inline-box;
+	display: -ms-inline-flexbox;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 40px;
+	background: transparent;
+	border-radius: 5px;
+
+	border-style: solid;
+	border-width: bold;
+	border-color: white;
+	
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.white_button:hover
+{
+	background: transparent !important;
+}
+
+.white_button a
+{
+	display: block;
+	color: #FFFFFF;
+	border-width: 5px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 40px;
+	width: 100%;
+}
+
 .red_button:hover
 {
 	background: #FE7C7F !important;
@@ -970,7 +1047,15 @@ section
 .shop_now_button
 {
 	width: 140px;
-	margin-top: 32px;
+	margin-top: 90px;
+	margin-left: 380px;
+}
+
+.regist_now_button
+{
+	width: 140px;
+	margin-top: 90px;
+	margin-left: 20px;
 }
 
 /*********************************
