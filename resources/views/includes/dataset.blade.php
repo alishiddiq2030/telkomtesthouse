@@ -1,5 +1,5 @@
 
-<option value="d1eabedf-4c84-46eb-a3f0-caeb296ce6e4" >==== CHOOSE YOUR COMPANY ====</option>
+<option value="" >Select Company</option>
 <option value="d1eabedf-4c84-46eb-a3f0-caeb296ce6e4" >BALAI BESAR LOGAM DAN MESIN</option>
 <option value="af7fbd50-aaa8-465a-a6ec-186bf6c273f0" >BALAI BESAR PENGUJIAN PERANGKAT TELEKOMUNIKASI</option>
 <option value="9fd16c07-494a-4ef2-b816-07b84471fc0b" >DUTA ALVA MAKMUR, PT</option>

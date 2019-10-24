@@ -147,37 +147,38 @@ h6::selection
 }
 ::-webkit-input-placeholder
 {
-	font-size: 16px !important;
+	/* font-size: 16px !important;
 	font-weight: 500;
-	color: #777777 !important;
+	color: #777777 !important; */
 }
 :-moz-placeholder /* older Firefox*/
 {
-	font-size: 16px !important;
+	/* font-size: 16px !important;
 	font-weight: 500;
-	color: #777777 !important;
+	color: #777777 !important; */
 }
 ::-moz-placeholder /* Firefox 19+ */
 {
-	font-size: 16px !important;
+	/* font-size: 16px !important;
 	font-weight: 500;
-	color: #777777 !important;
+	color: #777777 !important; */
 }
 :-ms-input-placeholder
 {
-	font-size: 16px !important;
+	/* font-size: 16px !important;
 	font-weight: 500;
-	color: #777777 !important;
+	color: #777777 !important; */
 }
 ::input-placeholder
 {
-	font-size: 16px !important;
+	/* font-size: 16px !important;
 	font-weight: 500;
-	color: #777777 !important;
+	color: #777777 !important; */
 }
 .form-control
 {
-	color: #db5246;
+	/* color: #db5246; */
+	color: #777777;
 }
 section
 {

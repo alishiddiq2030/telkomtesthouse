@@ -17,6 +17,7 @@
 <link rel="stylesheet" type="text/css" href="styles/custom/tab.css">
 <link rel="stylesheet" href="styles/stepstyle.css"/>
 <link rel="stylesheet" type="text/css" href="styles/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="icon" href="images/favico.png">
 
 
