@@ -22,7 +22,7 @@
         </div><!--/col-3-->
         
         <div class="col-sm-9">
-          <form class="form" action="##" method="post" id="registrationForm">
+          <form class="form" action="success">
             <div class="tab-content">
               <h3 class="col-sm">Personal Information</h3>
               <hr>
@@ -75,7 +75,7 @@
                     <div class="row">
                       <div class="col-sm-6">
                         <label for="fax"><h5>Facsimile</h5></label>
-                        <input type="text" class="form-control" placeholder="fax" required>
+                        <input type="text" class="form-control" placeholder="fax">
                       </div>
                     </div>
                   </div>

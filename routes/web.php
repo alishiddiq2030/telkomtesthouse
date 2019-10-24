@@ -94,6 +94,10 @@ Route::get('/register', function () {
     return view('pages.registration');
 });
 
+Route::get('/success', function () {
+    return view('pages.regist_success');
+});
+
 // EXAMPLE
 
 Route::get('/example', function () {
