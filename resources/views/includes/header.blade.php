@@ -41,7 +41,7 @@
                         <li class="account">
                             <a href="register">
                                 <i class="fa fa-user-plus" aria-hidden="false"></i>
-                                &ensp;Sign Up
+                                &ensp;Register
                             </a>
                         </li>
                         <li class="account">
