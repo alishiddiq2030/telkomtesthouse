@@ -13,7 +13,7 @@
 							<h3>Login to your Account!</h3>
 						 </div>
 					</div>
-                   <form action="" method="post" name="login">
+                   <!-- <form action="home/user" method="" name="login"> -->
                            <div class="form-group">
                               <label for="exampleInputEmail1">Username</label>
                               <input type="username" name="email"  class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter username">
@@ -27,14 +27,15 @@
                            </div>
                        </div>
                            <div class="col-md-12 text-center ">
-                              <button type="submit" class=" btn btn-block mybtn btn-danger tx-tfm">Login</button>
+                              <a href="home"><button type="submit" class=" btn btn-block mybtn btn-danger tx-tfm">Login</button>
+                              </a>
                            </div>
                            <div class="col-md-12 ">
                            </div>
                            <div class="form-group">
                               <p class="text-center">Don't have account? <a href="register" id="signup">Sign up here</a></p>
                            </div>
-                        </form>                
+                  <!-- </form>                 -->
 				</div>
 			</div>
 		</div>

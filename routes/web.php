@@ -11,10 +11,16 @@
 |
 */
 
+Route::get('/session/tampil','TesController@tampilkanSession');
+Route::get('/session/buat','TesController@buatSession');
+Route::get('/session/hapus','TesController@hapusSession');
+
+Route::get('home','TesController@buatSession');
+Route::get('out','TesController@hapusSession');
+
 Route::get('/', function () {
     return view('pages.home');
 });
-
 // PROFILE
 
 Route::get('/about', function () {

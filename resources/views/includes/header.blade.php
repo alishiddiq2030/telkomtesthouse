@@ -25,16 +25,19 @@
                                 <li><a href="#">Indonesia</a></li>
                             </ul>
                         </li>
-                        <!-- <li class="account">
+
+                        <?php if(session('nama') == "Ada"){?>
+                        <li class="account">
                             <a href="#">
                                 My Account
                                 <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="account_selection">
-                                <li><a href="login"><i class="fa fa-user" aria-hidden="true"></i>Edit Profile</a></li>
-                                <li><a href="register"><i class="fa fa-sign-out" aria-hidden="true"></i>Log Out</a></li>
+                                <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Edit</a></li>
+                                <li><a href="out"><i class="fa fa-sign-out" aria-hidden="true"></i>Log Out</a></li>
                             </ul>
-                        </li> -->
+                        </li>
+                        <?php } else {?>
                         <li class="account">
                             <a href="register">
                                 <i class="fa fa-user-plus" aria-hidden="false"></i>
@@ -47,6 +50,7 @@
                                 &ensp;Login
                             </a>
                         </li>
+                        <?php } ?>
                     </ul>
                 </div>
             </div>
@@ -105,7 +109,9 @@
                                 <li><a href="#"><i aria-hidden="true"></i>ADDEST</a></li>
                             </ul>
                         </li>
-                        <!-- <li class="profile">
+                        <!-- {{Session::get('nama')}} -->
+                        <?php if(session('nama') == "Ada"){?>
+                        <li class="profile">
                             <a href="#">
                                 Testing
                                 <i class="fa fa-angle-down"></i>
@@ -116,7 +122,8 @@
                                 <li><a href="purchase"><i aria-hidden="true"></i>PURCHASE HISTORY</a></li>
                                 <li><a href="buy_stel"><i aria-hidden="true"></i>BUY STEL</a></li>
                             </ul>
-                        </li> -->
+                        </li>
+                        <?php } ?>
                     </ul>
                     <!-- <ul class="navbar_user">
                         <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
