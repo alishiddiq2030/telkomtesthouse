@@ -69,7 +69,7 @@
                 </div>
                 <nav class="navbar">
                     <ul class="navbar_menu">
-                        <li><a href="/" class="text-danger">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li class="profile">
                             <a href="#">
                                 Profile
