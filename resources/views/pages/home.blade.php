@@ -106,43 +106,43 @@
 			<div class="row">
 				<div class="col text-center">
 					<div class="section_title new_arrivals_title">
-						<h2>Best Sellers</h2>
+						<h2>Tutorial Video</h2>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col">
-					<div class="product_slider_container">
-						<div class="owl-carousel owl-theme product_slider">
+					<!-- <div class="product_slider_container"> -->
+						<!-- <div class="owl-carousel owl-theme product_slider"> -->
 
 						<!-- Slide 1 -->
 
-						<div class="owl-item product_slider_item">
-							<div class="product_image">
-								<div class="embed-responsive embed-responsive-21by9">
-									<iframe 
-										width="438" 
-										height="250"         
+						<div class="product_slider_item">
+							<!-- <div class="product_image"> -->
+								<!-- <div class="embed-responsive embed-responsive-21by9"> -->
+									<iframe
+										height="350"          
+										width="650"          
 										src="https://www.youtube.com/embed?listType=playlist&list=PLl3Z5rVQaSyXdmOjIJ2pKhBAIAEOno63C&index=0" 
 										frameborder="0" 
 										allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 										allowfullscreen="1"
 										id="iframe_yt"
 									></iframe>
-								</div>
-							</div>
+								<!-- </div> -->
+							<!-- </div> -->
 						</div>
 										
 
 						<!-- Slider Navigation -->
 
-						<div class="product_slider_nav_left product_slider_nav d-flex align-items-center justify-content-center flex-column">
+						<!-- <div class="product_slider_nav_left product_slider_nav d-flex align-items-center justify-content-center flex-column">
 							<i class="fa fa-chevron-left" aria-hidden="true"></i>
 						</div>
 						<div class="product_slider_nav_right product_slider_nav d-flex align-items-center justify-content-center flex-column">
 							<i class="fa fa-chevron-right" aria-hidden="true"></i>
-						</div>
-					</div>
+						</div> -->
+					<!-- </div> -->
 				</div>
 			</div>
 		</div>
