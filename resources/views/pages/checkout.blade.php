@@ -69,6 +69,7 @@
                                 <a href="#"><button style="width:100%" type="button" class="btn btn-danger mt-3">SUBMIT</button></a>
                             </div>
                         </div>
+                        
                         <div class="col-md-9 metoda">
 							<h3>
                             <img src="images/mandiri.png" class="mt-3">

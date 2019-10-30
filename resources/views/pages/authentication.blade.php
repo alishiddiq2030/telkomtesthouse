@@ -7,37 +7,33 @@
         <div class="row">
 			<div class="col-md-5 mx-auto">
 			<div id="first">
-				<div class="myform form ">
-					 <div class="logo mb-4">
-						 <div class="col-md-12 text-center">
+				<div class="myform form">
+					<div class="logo mb-4">
+						<div class="col-md-12 text-center">
 							<h3>Login to your Account!</h3>
-						 </div>
-					</div>
-                   <!-- <form action="home/user" method="" name="login"> -->
-                           <div class="form-group">
-                              <label for="exampleInputEmail1">Username</label>
-                              <input type="username" name="email"  class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter username">
-                           </div>
-                           <div class="form-group">
-                              <label for="exampleInputEmail1">Password</label>
-                              <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
-                           </div>
-                           <div class="form-group">
-                            <a class="text-right" href="#" id="signup">Forgot Password?</a>
-                           </div>
-                       </div>
-                           <div class="col-md-12 text-center ">
-                              <a href="home"><button type="submit" class=" btn btn-block mybtn btn-danger tx-tfm">Login</button>
-                              </a>
-                           </div>
-                           <div class="col-md-12 ">
-                           </div>
-                           <div class="form-group">
-                              <p class="text-center">Don't have account? <a href="register" id="signup">Sign up here</a></p>
-                           </div>
-                  <!-- </form>                 -->
+						</div>
+               </div>
+
+               <div class="form-label-group mb-3 mt-5" style="padding-left:70px">
+                  <input type="text" id="inputEmail" class="form-control" placeholder="Username" style="width:300px" required autofocus>
+               </div>
+               <div class="form-label-group" style="padding-left:70px">
+                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" style="width:300px" required>
+               </div>
+
 				</div>
-			</div>
+         </div>
+         <div class="d-flex justify-content-center mt-3 login_container">
+            <a href="home"><button type="submit" class=" btn btn-block mybtn btn-danger tx-tfm" style="width:100px">Login</button></a>
+         </div>
+         <div class="mt-4">
+            <div class="d-flex justify-content-center links">
+               Don't have an account? <a href="register" class="ml-2">Sign Up</a>
+            </div>
+            <div class="d-flex justify-content-center links">
+               <a href="#">Forgot your password?</a>
+            </div>
+         </div>
 		</div>
 	</div>
 </div>

@@ -20,7 +20,7 @@
 	<div class="carousel-inner">
 		<div class="carousel-item active">
 		<!-- <img src="images/c1.jpeg" alt="Los Angeles" width="1100" height="500"> -->
-			<div class="main_slider" style="background-image:url(images/slider2.png)">
+			<div class="main_slider" style="background-image:url(images/slider2.jpg)">
 				<div class="container fill_height">
 					<div class="row align-items-center fill_height">
 						<div class="col">

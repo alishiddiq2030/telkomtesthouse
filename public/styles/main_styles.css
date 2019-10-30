@@ -733,7 +733,7 @@ section
 }
 .profile_selection li a:hover
 {
-	color: #b5aec4;
+	color: #FE7C7F;
 }
 .profile_selection li:last-child a
 {
@@ -1973,4 +1973,7 @@ section
 	width: 500px;
 	height: 100px;
     margin: 0px auto;
+}
+.carousel-indicators {
+	padding-right: 70px
 }
