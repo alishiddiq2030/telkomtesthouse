@@ -14,9 +14,11 @@
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="styles/custom/style1.css">
 <link rel="stylesheet" type="text/css" href="styles/custom/style2.css">
+<link rel="stylesheet" type="text/css" href="styles/custom/style3.css">
 <link rel="stylesheet" type="text/css" href="styles/custom/tab.css">
 <link rel="stylesheet" href="styles/stepstyle.css"/>
 <link rel="stylesheet" type="text/css" href="styles/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="icon" href="images/favico.png">
 
 
@@ -28,9 +30,9 @@
 <script src="styles/custom/script1.js"></script>
 <script src="js/custom/script2.js"></script>
 
-<!-- <script type="text/javascript" src="http://telkomtesthouse.co.id/new-layout/js/jquery.js"></script>
+<script type="text/javascript" src="http://telkomtesthouse.co.id/new-layout/js/jquery.js"></script>
 <script type="text/javascript" src="http://telkomtesthouse.co.id/new-layout/js/plugins.js"></script>
-<script type="text/javascript" src="http://telkomtesthouse.co.id/vendor/jquerymaterial/jquery.material.form.js"></script> -->
+<script type="text/javascript" src="http://telkomtesthouse.co.id/vendor/jquerymaterial/jquery.material.form.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-show-password/1.0.3/bootstrap-show-password.min.js"></script>
 
 

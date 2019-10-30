@@ -95,8 +95,8 @@
 	display: block;
 }
 .form-register .steps li a .title .step-icon { 
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -111,7 +111,7 @@
     -moz-outline: none;
     -webkit-outline: none;
     color: #fff;
-    font-size: 25.6px;
+    font-size: 16px;
     margin-right: 108px;
 }
 .form-register .steps li a .step-icon i {
@@ -232,8 +232,8 @@
     width: 84.1%;
 }
 .inner .form-row .form-holder.form-holder-2 {
-	width: 100%;
-	position: relative;
+	/*width: 100%;
+	position: relative;*/
 }
 .inner .form-row .form-row-inner {
 	position: relative;
@@ -324,7 +324,7 @@
 }
 .inner .form-row .form-holder input,
 .inner .form-row .form-holder select {
-    width: 350%;
+    width: 200%;
     padding: 13px 10px 8px;
     border: none;
     border-bottom: 2px solid #e5e5e5;
@@ -407,9 +407,9 @@
     -webkit-border-radius: 5px;
     margin: 27px 0 -25px;
 }
-.inner .table-responsive .table {
+/*.inner .table-responsive .table {
 	width: 100%;
-}
+}*/
 .inner .table-responsive tbody {
 	text-align: left;
 }
@@ -433,12 +433,20 @@
 	font-size: 16px;
 	font-weight: 400;
 }
+
+.inner-choose{
+	/*display: flex;*/
+    /*margin: 0 5px;*/
+    position: relative;
+    width: 100%;
+
+}
 .actions ul {
     list-style: none;
     padding-left: 0;
     padding: 0 20px;
 	margin: 30px 0;
-	padding-top: 100px;	
+	/* padding-top: 100px;	 */
     display: flex;
     display: -webkit-flex;
     justify-content: space-between;

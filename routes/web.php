@@ -11,10 +11,16 @@
 |
 */
 
+Route::get('/session/tampil','TesController@tampilkanSession');
+Route::get('/session/buat','TesController@buatSession');
+Route::get('/session/hapus','TesController@hapusSession');
+
+Route::get('home','TesController@buatSession');
+Route::get('out','TesController@hapusSession');
+
 Route::get('/', function () {
     return view('pages.home');
 });
-
 // PROFILE
 
 Route::get('/about', function () {
@@ -94,6 +100,10 @@ Route::get('/register', function () {
     return view('pages.registration');
 });
 
+Route::get('/success', function () {
+    return view('pages.regist_success');
+});
+
 // EXAMPLE
 
 Route::get('/example', function () {
@@ -104,4 +114,8 @@ Route::get('/example', function () {
 
 Route::get('/faq', function () {
     return view('pages.faq');
+});
+
+Route::get('/x', function () {
+    return view('includes.new_form');
 });
