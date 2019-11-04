@@ -28,6 +28,7 @@
 
 <!-- Javascript -->
 <script src="styles/custom/script1.js"></script>
+<script src="styles/custom/script2.js"></script>
 <script src="js/custom/script2.js"></script>
 
 <script type="text/javascript" src="http://telkomtesthouse.co.id/new-layout/js/jquery.js"></script>

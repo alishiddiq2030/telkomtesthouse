@@ -74,24 +74,31 @@
 
 	<div class="blogs">
 		<div class="container">
-			<div class="row blogs_container">
+			<div class="row pb-5">
+				<div class="col text-center">
+					<div class="section_title">
+						<h3>Our Certificates</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row blogs_container pt-5">
 				<div class="col-lg-4 blog_item_col">
 					<div class="blog_item">
-						<div class="blog_background" style="background-image:url(images/1.jpg)"></div>
+						<div class="blog_background" style="background-image:url(images/sertif0001.jpg)"></div>
 						<div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-							<span class="blog_meta">Testing Process</span>
-							<h4 class="blog_title">Choose your type testing that suits your company needs.</h4>
-							<a class="blog_more" href="process">Read more</a>
+							<span class="blog_meta">Our Certificates</span>
+							<h4 class="blog_title">Click link below to see more of our certifications.</h4>
+							<a class="blog_more" href="certification">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 blog_item_col">
 					<div class="blog_item">
-						<div class="blog_background" style="background-image:url(images/2.jpg)"></div>
+						<div class="blog_background" style="background-image:url(images/sertif0002.jpg)"></div>
 						<div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-							<span class="blog_meta">Buy STELL</span>
-							<h4 class="blog_title">Click button bellow, and you'll find out how easy it is to buy STELL documents.</h4>
-							<a class="blog_more" href="buy_stel">Read more</a>
+							<span class="blog_meta">Our Certificates</span>
+							<h4 class="blog_title">Click link below to see more of our certifications.</h4>
+							<a class="blog_more" href="certification">See more</a>
 						</div>
 					</div>
 				</div>
@@ -106,7 +113,7 @@
 			<div class="row">
 				<div class="col text-center">
 					<div class="section_title new_arrivals_title">
-						<h2>Tutorial Video</h2>
+						<h3>Tutorial Video</h3>
 					</div>
 				</div>
 			</div>
@@ -153,7 +160,7 @@
 			<div class="row">
 				<div class="col text-center">
 					<div class="section_title">
-						<h2>Our Partner</h2>
+						<h3>Our Partner</h3>
 					</div>
 				</div>
 			</div>

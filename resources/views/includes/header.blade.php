@@ -86,8 +86,10 @@
                                 <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="profile_selection" style="text-align:left;">
+                                <li><a href="news"><i aria-hidden="true"></i>NEWS & UPDATES</a></li>
                                 <li><a href="procedure"><i aria-hidden="true"></i>PROCEDURE</a></li>
                                 <li><a href="tarif"><i aria-hidden="true"></i>TARIF</a></li>
+                                <li><a href="tutorial"><i aria-hidden="true"></i>TUTORIAL VIDEO</a></li>
                             </ul>
                         </li>
                         <li><a href="certified">Certified Device</a></li>

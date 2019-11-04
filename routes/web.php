@@ -119,3 +119,13 @@ Route::get('/faq', function () {
 Route::get('/x', function () {
     return view('includes.new_form');
 });
+
+// INFORMATION
+
+Route::get('/news', function () {
+    return view('pages.news');
+});
+
+Route::get('/tutorial', function () {
+    return view('pages.tutorial');
+});

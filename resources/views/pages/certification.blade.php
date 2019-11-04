@@ -2,8 +2,8 @@
 @section('content')
 
 <!-- Page Content -->
-<div class="padding-top-180 mb-5">
-  <div class="container">
+<div class="padding-top-180">
+  <div class="container padding-bottom-180">
 
     <h4 class="font-weight-light text-center text-lg-left mt-4 mb-0">CERTIFICATION</h4>
 
@@ -12,44 +12,30 @@
     <div class="row text-center text-lg-left">
 
       <div class="col-lg-4 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/c1.jpeg" alt="">
-              <h5 align="center">1</h5>
+        <a href="#" class="d-block">
+              <img class="img-fluid img-thumbnail zoomD" src="images/sertif0001.jpg" alt="">
             </a>
+            <br>
+            <h5 align="center">SERTIFIKAT AKREDITASI</h5>
+
       </div>
       <div class="col-lg-4 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/c2.jpeg" alt="">
-              <h5 align="center">Hal yang harus diperhatikan</h5>
+        <a href="#" class="d-block">
+              <img class="img-fluid img-thumbnail zoomD" src="images/sertif0002.jpg" alt="">
             </a>
+            <br>
+            <h5 align="center">SERTIFIKAT AKREDITASI</h5>
       </div>
-      <div class="col-lg-4 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/c3.jpeg" alt="">
-              <h5 align="center">Seputar Uji Fungsi</h5>
-            </a>
+
+      <!-- [LIGHTBOX CONTAINER] -->
+      <div id="lb-back">
+        <div id="lb-img"></div>
       </div>
-    <div class="col-lg-4 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/c4.jpeg" alt="">
-              <h5 align="center">Sertifikat Mutu</h5>
-            </a>
-      </div>
-    <div class="col-lg-4 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/c5.jpeg" alt="">
-              <h5 align="center">SPB</h5>
-            </a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/c6.jpeg" alt="">
-              <h5 align="center">Tarif Uji Lokasi</h5>
-            </a>
-      </div>
-    </div>
+
+      <!-- [THE IMAGES] -->
+      <!-- <img src="images/sertif0001.jpg" class="zoomD"/> -->
 
   </div>
-</div>
+</div>  
 <!-- /.container -->
 @stop
