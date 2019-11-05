@@ -15,7 +15,7 @@
                </div>
 
                <div class="form-label-group mb-3 mt-5" style="padding-left:70px">
-                  <input type="text" id="inputEmail" class="form-control" placeholder="Username" style="width:300px" required autofocus>
+                  <input type="text" id="inputEmail" class="form-control" placeholder="Email" style="width:300px" required autofocus>
                </div>
                <div class="form-label-group" style="padding-left:70px">
                   <input type="password" id="inputPassword" class="form-control" placeholder="Password" style="width:300px" required>
